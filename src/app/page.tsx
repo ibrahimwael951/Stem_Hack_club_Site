@@ -1,10 +1,10 @@
 
 //component 
 import BgHomePage from "@/components/bgHomePage";
-import QAHomePage from "@/components/QA";
+import QAHomePage from "@/components/Home-content";
 export default function Home() {
   return (
-   <div className="select-none bg-gray-900 text-white">
+   <div className="select-none   text-white">
 
       <BgHomePage/>
       <QAHomePage/>

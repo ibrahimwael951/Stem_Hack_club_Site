@@ -3,31 +3,24 @@
 @tailwind utilities;
 
 
-*{
-   @apply selection:bg-red-500 selection:text-white;
-}
- 
-.list-md {
-  position: relative;
+* {
+   @apply selection:bg-red-500 selection:text-white    font-medium;
 }
 
-.list-md::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background-color:red;
-  transform-origin: bottom right;
-  transform: scaleX(0);
-  transition: transform 0.5s ease;
+a {
+  @apply text-red-500 hover:text-red-700;
+}
+ 
+h1 {
+   @apply text-4xl mb-2 font-bold text-gray-800 dark:text-gray-100;
 }
 
-.list-md:hover::before {
-  transform-origin: bottom left;
-  transform: scaleX(1);
- 
+h2 {
+   @apply text-3xl mb-2 font-bold text-gray-800 dark:text-gray-100;
+}
+
+p {
+   @apply text-lg text-gray-700  mb-4;
 }
 
 
@@ -35,7 +28,7 @@
 .button-not-found {
   margin: 30px;
   --bg: #000;
-  --hover-bg: #ff90e8;
+  --hover-bg: #7700ff;
   --hover-text: #000;
   color: #fff;
   cursor: pointer;
@@ -47,7 +40,7 @@
 }
 
 .button-not-found:hover {
-  color: var(--hover-text);
+  color: white;
   transform: translate(-0.25rem, -0.25rem);
   background: var(--hover-bg);
   box-shadow: 0.25rem 0.25rem var(--bg);
@@ -56,4 +49,64 @@
 .button-not-found:active {
   transform: translate(0);
   box-shadow: none;
+}
+
+
+
+
+/* button in home page */
+.button-Home {
+  display: flex;
+}
+
+.box-Home {
+  width: 35px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  transition: all .8s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.box-Home:before {
+  content: "W";
+  position: absolute;
+  top: 0;
+  background: #0f0f0f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform .4s;
+}
+
+.box-Home:nth-child(2)::before {
+  transform: translateY(-100%);
+  content: 'O';
+}
+
+.box-Home:nth-child(3)::before {
+  content: 'R';
+}
+
+.box-Home:nth-child(4)::before {
+  transform: translateY(-100%);
+  content: 'L';
+}
+
+.box-Home:nth-child(5)::before {
+  content: 'D';
+}
+
+.button-Home:hover .box-Home:before {
+  transform: translateY(0);
+  
 }
