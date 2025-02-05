@@ -1,6 +1,6 @@
 import React from 'react'
 
-const QAHomePage = () => {
+const QA = () => {
     const aStyle = "text-red-500 hover:text-red-700"
   return (
     <section className='select-text cursor-default selection:bg-red-500 selection:text-white px-20 py-10 dark:bg-gray-950 h-screen flex flex-col justify-evenly'>
@@ -34,4 +34,4 @@ const QAHomePage = () => {
   )
 }
 
-export default QAHomePage
+export default QA
