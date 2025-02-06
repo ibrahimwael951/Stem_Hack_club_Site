@@ -8,10 +8,10 @@ export default function page() {
        
         <div className=" h-[70vh] overflow-hidden  w-full  flex items-center justify-center    bg-gradient-to-r from-[#cf2de4] via-[#e42d42] to-[#ce293c]   ">
             <p className="   w-full h-full flex flex-col justify-center items-center "  >
-                <span className={`md:ml-[-40rem]  ${SpanTitle}`}>We're</span> 
-                <span className={`md:ml-[-10rem]  ${SpanTitle}`}>at our best</span> 
-                <span className={`md:ml-[10rem]    ${SpanTitle}`}>when we're</span> 
-                <span className={`md:ml-[40rem]   ${SpanTitle}`}>making</span>
+                <span className={`md:ml-[-40rem]  ${SpanTitle}`}>   We're        </span> 
+                <span className={`md:ml-[-10rem]  ${SpanTitle}`}>   at our best  </span> 
+                <span className={`md:ml-[10rem]   ${SpanTitle}`}>   when we're   </span> 
+                <span className={`md:ml-[40rem]   ${SpanTitle}`}>   making       </span> 
             </p>
         </div>
 

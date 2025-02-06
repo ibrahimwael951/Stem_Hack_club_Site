@@ -1,13 +1,13 @@
-
+import Link from "next/link";
 const Button = () => {
   return (
-    <div className="button-Home">
+    <Link href="#Home_Content" className="button-Home">
       <div className="box-Home">H</div>
       <div className="box-Home">E</div>
       <div className="box-Home">L</div>
       <div className="box-Home">L</div>
       <div className="box-Home">O</div>
-    </div>
+    </Link>
   )
 }
 export default Button

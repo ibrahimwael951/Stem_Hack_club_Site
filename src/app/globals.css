@@ -7,6 +7,10 @@
    @apply duration-200 selection:bg-red-500 selection:text-white    font-medium;
 }
 
+body{
+  @apply scroll-smooth
+}
+
 a {
   @apply text-red-500 hover:text-red-700;
 }
@@ -20,11 +24,16 @@ h2 {
 }
 
 p {
-   @apply text-lg text-gray-700  mb-4;
+   @apply cursor-default ml-5 text-lg text-gray-700  mb-4;
 }
 
 
-  
+  .Stem-image{
+    background-image: url(../../public//images/Home_page.jpg);
+    background-position: center;
+    background-size: cover;
+    
+  }
 .button-not-found {
   margin: 30px;
   --bg: #000;

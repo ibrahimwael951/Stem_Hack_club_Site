@@ -3,7 +3,7 @@ import React from 'react'
 const QA = () => {
       
   return (
-    <section className='select-text cursor-default   px-20 py-10   h-fit lg:h-screen flex flex-col justify-evenly'>
+    <section id='Home_Content' className='select-text cursor-default   px-20 py-10   h-fit lg:h-screen flex flex-col justify-evenly'>
       
     <div  >
         <h1>What's a Hacker?</h1>
