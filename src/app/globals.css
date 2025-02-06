@@ -4,7 +4,7 @@
 
 
 * {
-   @apply selection:bg-red-500 selection:text-white    font-medium;
+   @apply duration-200 selection:bg-red-500 selection:text-white    font-medium;
 }
 
 a {
@@ -110,3 +110,18 @@ p {
   transform: translateY(0);
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

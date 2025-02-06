@@ -16,31 +16,26 @@ const WhyUsContent = () => {
         
         </div>
 
-
         <div className={DivStyle}>
-            <h2> Hack Night</h2>
-            <p>Every 
-                <b>Saturday at 8:00 PM</b>, 
-                we have our weekly Zoom meetings where we present fantastic workshops. It is a chance to meet new friends or hang out on a chill call.</p>
-        
-        </div> 
-
-        <div className={DivStyle}>
-            <h2> Game Jams, Workshops, and Events</h2>
-            <p>
-                It would be best if you did not hesitate to join us for one of our weekly meetings, no matter your skill level. It is entirely acceptable if you have never programmed or worked with any coding or engineering before. You will be guided through the learning process by our mentors. Through our weekly sessions, you may complete your first project in less than 1.5 hours.
+            <h2>Our annual Bootcamp</h2>
+            <p> 
+                Our<b> Annual Bootcamp ,</b>
+                , held in August or September, is open to students from Egypt and the Arab world. It provides a strong foundation in
+                <b> Competitive Programming, Cybersecurity, Game Development, and App Development </b>
+                By the end of the bootcamp, participants create their own projects in their chosen fields. All attendees receive certificates, with top performers earning special prizes.
             </p>
-        </div> 
+        
+        </div>
 
         <div className={DivStyle}>
             <h2>Final Projects </h2>
             <p>
-                We cultivate a community of coders and makers to build up a final project at the end of the training to utilize each skill they have learned throughout their tasks, sessions, and outside resources. We distribute the members in groups according to the members' number in each track to establish a cooperative environment. There is an evaluation and a presentation for each group to present their ideas and projects at the final evaluation, which helps them improve their presentation and other skills!
+            We foster a collaborative community of coders and makers, guiding them to apply their skills in a final group project. Members are grouped within their tracks to enhance teamwork, culminating in evaluations and presentations that refine their technical and communication skills. Explore these projects and more in Projects Section. (will be hyperlink to the section of projects) 
             </p>
         </div> 
 
         <div className={DivStyle}>
-            <h2> Hackathons</h2>
+            <h2> Hackathons and Events          </h2>
             <p>
                 Every season we do two hackathons: a project hackathon 
                 <i>(online)</i> 
