@@ -4,6 +4,7 @@
 
 
 * {
+  
    @apply duration-200 selection:bg-red-500 selection:text-white    font-medium;
 }
 
@@ -13,6 +14,9 @@ body{
 
 a {
   @apply text-red-500 hover:text-red-700;
+}
+section{
+  @apply bg-white dark:bg-black 
 }
  
 h1 {
