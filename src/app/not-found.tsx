@@ -4,7 +4,7 @@ import HackerError from '../../public/images/HackerError.png'
 
 export default function notfound() {
   return (
-    <section className="flex  flex-col-reverse lg:flex-row items-center justify-center h-[110vh] lg:h-screen bg-white dark:bg-black">
+    <section className="flex  flex-col-reverse lg:flex-row items-center justify-center h-[110vh] lg:h-screen  ">
       <div className='flex flex-col items-center gap-5 z-10'>
           <h1 className='text-5xl text-red-500 select-none'>Error 404</h1>
         <h1 className='text-2xl md:text-4xl cursor-default'>Sry mate this page not found </h1>

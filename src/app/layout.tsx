@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
- 
+import { ThemeProvider } from "@/components/ThemeProvider";
+
 export const metadata: Metadata = {
   title: "Stem Hack Club",
-  description: " Stem Hack Club is a community of students who are passionate about STEM and coding.",
+  description:
+    " Stem Hack Club is a community of students who are passionate about STEM and coding.",
 };
 
 export default function RootLayout({
@@ -16,9 +18,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-          <Navbar  />
-           {children}  
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar />
+
+          {children}
+
           <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

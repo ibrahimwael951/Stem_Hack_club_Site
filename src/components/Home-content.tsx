@@ -5,7 +5,7 @@ const QA = () => {
   return (
     <section id='Home_Content' className='select-text cursor-default   px-20 py-10   h-fit lg:h-screen flex flex-col justify-evenly'>
       
-    <div  >
+    <div >
         <h1>What's a Hacker?</h1>
         <p>
             A hacker is not always someone who trespasses on banks or plunders a friend's V-Bucks. Hackers are individuals who identify problems that need to be solved and devise the most practical-efficient solutions. These issues frequently call for an inventive mentality, technological know-how, and exposure to new ideas. Many can be solved with computers or clever engineering. At STEM Egypt Hack Club, we want our hackers to be creative problem solvers who are also proficient in coding, engineering, and problem-solving.
