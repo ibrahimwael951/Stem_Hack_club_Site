@@ -11,29 +11,7 @@ import {
 } from "@/components/ui/carousel";
 
 
-
-
- //import the images
-import pic1 from "../../public/images/Members-pictures/pic1.jpg";
-import pic2 from "../../public/images/Members-pictures/pic2.jpg";
-import pic3 from "../../public/images/Members-pictures/pic3.jpg";
-import pic4 from "../../public/images/Members-pictures/pic4.jpg";
-import pic5 from "../../public/images/Members-pictures/pic5.jpg";
-import pic6 from "../../public/images/Members-pictures/pic6.jpg";
-import pic7 from "../../public/images/Members-pictures/pic7.jpg";
-
 const QA = () => {
-
-  const MembersPic = [
-    { src: pic1, alt: " pic1" },
-    { src: pic2, alt: "pic2 " },
-    { src: pic3, alt: " pic3" },
-    { src: pic4, alt: " pic4" },
-    { src: pic5, alt: " pic5" },
-    { src: pic6, alt: " pic6" },
-    { src: pic7, alt: " pic7" },
-  ];
-
   return (
     <section
       id="Home_Content"
@@ -137,19 +115,21 @@ const QA = () => {
         {/* right side */}
         <Carousel className="w-full md:w-2/4 max-w-96  md:max-w-2xl ">
           <CarouselContent className="-ml-1">
-            {MembersPic.map((Pictures, index) => (
+            {MemberPic.members.map((Pictures, index) => (
               <CarouselItem
                 key={index}
-                className="pl-1 md:basis-1/2 lg:basis-1/3  cursor-grab active:cursor-grabbing select-none "
+                className="pl-1 md:basis-1/2 lg:basis-1/3  cursor-grab active:cursor-grabbing "
               >
                 <div className=" p-1">
                   <Card className="border-white overflow-hidden">
                     <CardContent className=" flex aspect-square items-center justify-center  p-0 ">
                       <Image
-                        src={Pictures.src}
-                        alt={Pictures.alt} 
-                      
-                      
+                        src={`${Pictures.src}`}
+                        alt={`${Pictures.alt}`}
+                        width={1000}  
+                        height={1000} 
+                        quality={100}
+                        className="object-cover  h-full w-full"
                       />
                     </CardContent>
                   </Card>

@@ -1,9 +1,4 @@
 
-
-
-//cloud flare
-export const runtime = "edge";
-
 //component 
 import BgHomePage from "@/components/bgHomePage";
 import QAHomePage from "@/components/Home-content";
