@@ -1,0 +1,18 @@
+{
+  "Nav": [
+    { "href": "/", "Title": "Home" },
+    { "href": "/Why-Us", "Title": "Why Us" },
+    { "href": "/Meet-Us", "Title": "Meet Us" },
+    { "href": "/Hackathons", "Title": "Hackathons" },
+    { "href": "/Projects", "Title": "Projects" },
+    { "href": "/Competitive-Programming", "Title": "Competitive Programming" },
+    { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
+  ],
+  "Footer": [
+    { "href": "/", "Title": "Home" },
+    { "href": "/Meet-Us", "Title": "Meet Us" },
+    { "href": "/Why-Us", "Title": "Why Us" },
+    { "href": "/Hackathons", "Title": "Hackathons" },
+    { "href": "/Projects", "Title": "Projects" }
+  ]
+}

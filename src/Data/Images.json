@@ -1,0 +1,239 @@
+{
+  "members":[
+    { "id":1,
+    "src":"/Images/Members pictures/pic 1.jpg",
+     "alt": "pic1" },
+
+
+    { "id":2,
+    "src": "/Images/Members pictures/pic 2.jpg",
+     "alt": "pic2" },
+
+
+    { "id":3,
+    "src": "/Images/Members pictures/pic 3.jpg",
+     "alt": "pic3" },
+
+
+    { "id":4,
+    "src": "/Images/Members pictures/pic 4.jpg",
+     "alt": "pic4" },
+
+
+    { "id":5,
+    "src": "/Images/Members pictures/pic 5.jpg",
+     "alt": "pic5" },
+
+
+    { "id":6,
+    "src": "/Images/Members pictures/pic 6.jpg",
+     "alt": "pic6" },
+
+
+    { "id":7,
+    "src": "/Images/Members pictures/pic 7.jpg",
+     "alt": "pic7" }
+
+
+
+
+  ],
+  
+  "Projects":[
+  {
+    "id": 1,
+    "Title": "Calculator ",
+    "description": "A brief description of Project 1.",
+    "image": "/images/projects/calc.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Mobile%20Development%20Track/Mina%20Ashraf/Calculator",
+    "category": "App"
+  },
+  {
+    "id": 2,
+    "Title": "Image-text Editor",
+    "description": "A brief description of Project 2.",
+    "image": "/images/projects/pic.jpeg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Mobile%20Development%20Track/Mina%20Ashraf/Image-text%20Editor",
+    "category": "APP"
+  },
+  {
+    "id": 3,
+    "Title": "Candy Catch",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/candy.jfif",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Game%20Development%20Track/Candy%20Catch",
+    "category": "GAME"
+  },
+
+  {
+    "id": 4,
+    "Title": "Through Wall",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/wall.jfif",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Game%20Development%20Track/Through%20Wall",
+    "category": "GAME"
+  },
+
+  {
+    "id": 5,
+    "Title": " Attendance Manager",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/attend.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Mobile%20Development%20Track/Attendance-manager-main",
+    "category": "APP"
+  },
+
+  {
+    "id": 6,
+    "Title": "Blackjack ",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/black.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Python%20Track/Blackjack-main",
+    "category": "Python"
+  },
+
+  {
+    "id": 7,
+    "Title": "Hash ",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/hash.jpg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Python%20Track/Hash",
+    "category": "Python"
+  },
+
+  {
+    "id": 8,
+    "Title": "Electronic Doctor",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/edoctor.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Python%20Track/Electronic-Doctor-V2-main",
+    "category": "Python"
+  },
+
+  {
+    "id": 9,
+    "Title": " Wireparser",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/wire.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Cybersecurity/wireparser-main",
+    "category": "Cyber Security"
+  },
+
+  {
+    "id": 10,
+    "Title": " Lost",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/lost.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Game%20Development%20Track/Lost",
+    "category": "GAME"
+  },
+
+  {
+    "id": 11,
+    "Title": "Alpha ",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/arab-connect.jpg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Python%20Track/Alpha",
+    "category": "Python"
+  },
+
+  {
+    "id": 12,
+    "Title": " Steps",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/steps.png",
+    "link": "#",
+    "category": "APP"
+  },
+
+  {
+    "id": 13,
+    "Title": " Animex",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/Anime.jpeg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Bootcamp/Animex",
+    "category": "APP"
+  },
+
+  {
+    "id": 14,
+    "Title": "Food ",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/Food.jpg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Bootcamp/Food",
+    "category": "APP"
+  },
+
+  {
+    "id": 15,
+    "Title": "Net Scanner",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/net-scan.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Bootcamp/net%20scanner",
+    "category": "Cyber Security"
+  },
+
+  {
+    "id": 16,
+    "Title": " Alarm",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/alarm.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Bootcamp/Alarm",
+    "category": "Python"
+  },
+
+  {
+    "id": 17,
+    "Title": " Calculator Error Detector",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/calcerror.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Hackathons/CalcErrorDetector",
+    "category": "Python"
+  },
+
+  {
+    "id": 18,
+    "Title": "Lung Cancer Detection",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/jeka.jpeg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Hackathons/Code%20of%20Duty",
+    "category": "APP"
+  },
+
+  {
+    "id": 19,
+    "Title": " Dragon Quest",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/Dragon.jpg",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Hackathons/Dragon-Quest",
+    "category": "GAME"
+  },
+
+  {
+    "id": 20,
+    "Title": " Enemy Killer",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/enemy.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Hackathons/Enemy%20killer",
+    "category": "GAME"
+  },
+
+  {
+    "id": 21,
+    "Title": "Orders ",
+    "description": "A brief description of Project  .",
+    "image": "/images/projects/order.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Hackathons/Orders",
+    "category": "Python"
+  },
+
+  {
+    "id": 22,
+    "Title": "Posture Checker",
+    "description": "A brief description of Project 22.",
+    "image": "/images/projects/posture.png",
+    "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Hackathons/posture_checker",
+    "category": "APP"
+  }
+]
+}
