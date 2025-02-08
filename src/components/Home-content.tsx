@@ -126,8 +126,8 @@ const QA = () => {
                       <Image
                         src={`${Pictures.src}`}
                         alt={Pictures.alt}
-                        width={1000}
-                        height={1000}
+                        width={500}  
+                        height={500} 
                       />
                     </CardContent>
                   </Card>

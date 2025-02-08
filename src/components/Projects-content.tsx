@@ -14,8 +14,8 @@ const bgProjects = () => {
           <Image
             src={`${project.image}`}  
             alt={project.Title}
-            width={100}  
-            height={100}  
+            width={500}  
+            height={500}  
             quality={100}   
             className="object-cover  h-2/5 w-full" 
             />
