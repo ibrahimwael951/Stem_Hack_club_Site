@@ -125,9 +125,11 @@ const QA = () => {
                     <CardContent className=" flex aspect-square items-center justify-center  p-0 ">
                       <Image
                         src={`${Pictures.src}`}
-                        alt={Pictures.alt}
-                        width={500}  
-                        height={500} 
+                        alt={`${Pictures.alt}`}
+                        width={1000}  
+                        height={1000} 
+                        quality={100}
+                        className="object-cover  h-full w-full"
                       />
                     </CardContent>
                   </Card>
