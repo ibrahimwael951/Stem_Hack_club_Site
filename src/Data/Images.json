@@ -1,37 +1,37 @@
 {
   "members":[
     { "id":1,
-    "src":"/Images/Members pictures/pic 1.jpg",
+    "src":"/Images/Members-pictures/pic 1.jpg",
      "alt": "pic1" },
 
 
     { "id":2,
-    "src": "/Images/Members pictures/pic 2.jpg",
+    "src": "/Images/Members-pictures/pic 2.jpg",
      "alt": "pic2" },
 
 
     { "id":3,
-    "src": "/Images/Members pictures/pic 3.jpg",
+    "src": "/Images/Members-pictures/pic 3.jpg",
      "alt": "pic3" },
 
 
     { "id":4,
-    "src": "/Images/Members pictures/pic 4.jpg",
+    "src": "/Images/Members-pictures/pic 4.jpg",
      "alt": "pic4" },
 
 
     { "id":5,
-    "src": "/Images/Members pictures/pic 5.jpg",
+    "src": "/Images/Members-pictures/pic 5.jpg",
      "alt": "pic5" },
 
 
     { "id":6,
-    "src": "/Images/Members pictures/pic 6.jpg",
+    "src": "/Images/Members-pictures/pic 6.jpg",
      "alt": "pic6" },
 
 
     { "id":7,
-    "src": "/Images/Members pictures/pic 7.jpg",
+    "src": "/Images/Members-pictures/pic 7.jpg",
      "alt": "pic7" }
 
 

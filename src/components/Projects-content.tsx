@@ -1,4 +1,3 @@
-"use client"
 import Image from 'next/image'
 import projectsData from "@/Data/Images.json"
 const bgProjects = () => {
@@ -15,8 +14,8 @@ const bgProjects = () => {
           <Image
             src={ project.image}  
             alt={project.Title}
-            width={1000}  
-            height={1000}  
+            width={100}  
+            height={100}  
             quality={100}   
             className="object-cover  h-2/5 w-full" 
             />
