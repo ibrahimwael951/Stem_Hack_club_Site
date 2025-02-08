@@ -2,6 +2,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import HackerError from '../../public/images/HackerError.png'
 
+
+//cloud flare
+export const runtime = "edge";
+
 export default function notfound() {
   return (
     <section className="flex  flex-col-reverse lg:flex-row items-center justify-center h-[110vh] lg:h-screen  ">

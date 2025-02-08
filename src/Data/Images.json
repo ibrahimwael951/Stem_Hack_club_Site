@@ -60,7 +60,7 @@
     "id": 3,
     "Title": "Candy Catch",
     "description": "A brief description of Project  .",
-    "image": "/images/projects/candy.jfif",
+    "image": "/images/not-found.jpg",
     "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Game%20Development%20Track/Candy%20Catch",
     "category": "GAME"
   },
@@ -69,7 +69,7 @@
     "id": 4,
     "Title": "Through Wall",
     "description": "A brief description of Project  .",
-    "image": "/images/projects/wall.jfif",
+    "image": "/images/not-found.jpg",
     "link": "https://github.com/Geo-sudo/Hack-Club-STEM-Egypt-Data/tree/main/Game%20Development%20Track/Through%20Wall",
     "category": "GAME"
   },

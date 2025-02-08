@@ -1,6 +1,10 @@
  
 //component
 import Content from "@/components/Why-Us-content";
+
+//cloud flare
+export const runtime = "edge";
+
 export default function page() {
     const SpanTitle = "ml-0 text-7xl block text-white font-bold select-none"
   return (
