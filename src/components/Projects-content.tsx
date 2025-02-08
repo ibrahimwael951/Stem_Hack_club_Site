@@ -12,7 +12,7 @@ const bgProjects = () => {
           className="hover:-translate-y-2 hover:scale-105    flex flex-col justify-evenly items-center p-5 h-[250px] w-[250px] rounded-2xl border border-black dark:border-white cursor-default"
         >
           <Image
-            src={ project.image}  
+            src={`${project.image}`}  
             alt={project.Title}
             width={100}  
             height={100}  

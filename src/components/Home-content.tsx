@@ -124,7 +124,7 @@ const QA = () => {
                   <Card className="border-white overflow-hidden">
                     <CardContent className=" flex aspect-square items-center justify-center  p-0 ">
                       <Image
-                        src={Pictures.src}
+                        src={`${Pictures.src}`}
                         alt={Pictures.alt}
                         width={1000}
                         height={1000}
