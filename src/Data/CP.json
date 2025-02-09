@@ -1,0 +1,58 @@
+[
+  {
+    "h1":"Session 1",
+    "p":"Revision on the contents of the two offline sessions. See the Recording and the files",
+    "a":"https://drive.google.com/drive/folders/1Zku5mwhWbo1eGYAQUTE1RIdpMJ6jr-dx?usp=sharing"
+  },
+  {
+    "h1":"Session 2",
+    "p":"Overview of the algorithmic time complexity. See the Recording and the files",
+    "a":"https://drive.google.com/drive/folders/1sAg4PbdDec3fE3l7_fK4nm8oLt0tXz3l?usp=sharing"
+  },
+  {
+    "h1":"Session 3",
+    "p":"In-depth overview of logarithmic time complexity. See the Recording and the files ",
+    "a":"https://drive.google.com/drive/folders/1fMPpGM0KeFRSYvNi9s6lXfKE95UC6C1t?usp=sharing"
+  },
+  {
+    "h1":"Session 4 , 5 and 6",
+    "p":"Overview of Data Structures and STLs(standard template library) in C++. See the Recording and the files",
+    "a":"https://drive.google.com/drive/folders/13d7L1LPIVYCWikYmi5uMzfWNuzES8p8M?usp=sharing"
+  },
+  {
+    "h1":"Session 7",
+    "p":"Basic Number Theory: Factorization, Prime Numbers + Sieve, and Perfect Squares. See the Recording and the files ",
+    "a":"https://drive.google.com/drive/folders/1S4mRIsfBk4OdH5CXtK3-4lEmyfCOrkrj?usp=sharing"
+  },
+  {
+    "h1":"Session 8",
+    "p":"More Advanced Number Theory: GCD, LCM, and Modular Arithmetic. See the Recording and the files ",
+    "a":"https://drive.google.com/drive/folders/17-tbmwcA4dD6s5FB8sLqsFRXy7ImkybW?usp=sharing"
+  },
+  {
+    "h1":"Session 9",
+    "p":"Basic Graph Theory: What is a graph? connected components? DFS?. See the Recording and the files ",
+    "a":"https://drive.google.com/drive/folders/1JnlMXwItmfSuEXu6wjqf2sgf_RfXcPsy?usp=sharing"
+  },
+  {
+    "h1":"Session 10",
+    "p":"Two Harder Problems from Mostafa Saad's problem sheet on both Graphs and Number Theory. See the Recording and the files ",
+    "a":"https://drive.google.com/drive/folders/1Alo02Vu-t7bzzTJ7F7SzFsunVhSbnVBW?usp=sharing"
+  },
+  {
+    "h1":"Session 11",
+    "p":"Intro to recursion techniques. See the Recording and the files",
+    "a":"https://drive.google.com/drive/folders/1_Z3gJbpLsBKCWkVUat15vBdrdfbjsaTt?usp=sharing"
+  },
+  {
+    "h1":"Session 12",
+    "p":"More recursion techniques + intro to dynamic programming. See the Recording and the files ",
+    "a":"https://drive.google.com/drive/folders/1zNuPECevOJo9pddpgU7VlIb6naHWTRbA?usp=sharing"
+  },
+  {
+    "h1":"Session 13",
+    "p":"Last Session: Prefix sums + Guide on how to delve deeper into the world of Problem Solving. See the Recording and the files",
+    "a":"https://drive.google.com/drive/folders/18HqMmYRY8_21KnCArRTHgEvYL11ak7Bf?usp=sharing"
+  }
+  
+]

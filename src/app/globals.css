@@ -68,10 +68,13 @@ background-size: cover;
 }
 
 .Stem{
-  background-image: url(../../public//images/Home_page.jpg);
+  background-image: url(../../public/images/Home_page.jpg);
 }
 .projects{
   background-image: url(../../public/images/Projects.jpg);
+}
+.CP{
+  background-image: url(../../public/images/C++.png);
 }
 
 
