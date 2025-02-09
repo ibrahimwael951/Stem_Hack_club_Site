@@ -213,7 +213,7 @@
         "description":"Vice President and Cyber Security Mentor"
     },    
     {
-        "name":"Mohammed Omar Ibrahim",
+        "name":"Mohammed Omar",
         "image":"/images/board/moi2.jpg",
         "github":"https://github.com/MoiMohamed",
         "linkedin":"",
@@ -253,22 +253,12 @@
         "description":"Game Development Mento"
     },    
     {
-        "name":"Youssef Gamal Abdel-Nasser",
+        "name":"Youssef Gamal",
         "image":"/images/board/yousef.jpeg",
         "github":"",
         "linkedin":"",
         "facebook":"",
         "email":"mailto:youssefnassar1961@gmail.com",
-        "year":"2023",
-        "description":"Mobile Development Mentor"
-    },    
-    {
-        "name":"Mina Ashraf",
-        "image":"/images/board/unknown.png",
-        "github":"",
-        "linkedin":"",
-        "facebook":"",
-        "email":"mailto:ashrafmina773@gmail.com",
         "year":"2023",
         "description":"Mobile Development Mentor"
     },    
@@ -293,8 +283,18 @@
         "description":"Graphic Designer"
     },    
     {
+        "name":"Mina Ashraf",
+        "image":"/images/board/unknown.jpg",
+        "github":"",
+        "linkedin":"",
+        "facebook":"",
+        "email":"mailto:ashrafmina773@gmail.com",
+        "year":"2023",
+        "description":"Mobile Development Mentor"
+    },    
+    {
         "name":"Kareem Wael",
-        "image":"/images/board/kareem.jpeg",
+        "image":"/images/board/KarimIbrahim.jpg",
         "github":"https://github.com/ItsKareem",
         "linkedin":"",
         "facebook":"",
