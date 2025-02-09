@@ -1,5 +1,5 @@
 //data CP
-import CPData from '../data/CP.json';
+import CPData from '../Data/Competitive-Programming.json';
 const CPContent = () => {
   return (
     <div>
