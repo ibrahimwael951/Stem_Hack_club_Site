@@ -1,25 +1,5 @@
 [
     {
-        "name":"Abdelrahman Abdelkader",
-        "image":"/images/board/Abdelrahman Abdelkader.jpg",
-        "github":"",
-        "linkedin":"",
-        "facebook":"",
-        "email":"",
-        "year":"2025",
-        "description":"Event Coordinator"
-    },    
-    {
-        "name":"Mostafa Emad",
-        "image":"/images/board/Mostafa Emad.jpg",
-        "github":"",
-        "linkedin":"",
-        "facebook":"",
-        "email":"",
-        "year":"2025",
-        "description":"Vice President and Competitive Programming Mentor" 
-    },    
-    {
         "name":"Mostafa Mohammad ",
         "image":"/images/board/Mostafa Mohammad.jpg",
         "github":"",
@@ -39,6 +19,26 @@
         "year":"2025",
         "description":"Cyber Security Mentor" 
     }, 
+    {
+        "name":"Mostafa Emad",
+        "image":"/images/board/Mostafa Emad.jpg",
+        "github":"",
+        "linkedin":"",
+        "facebook":"",
+        "email":"",
+        "year":"2025",
+        "description":"Vice President and Competitive Programming Mentor" 
+    },    
+    {
+        "name":"Abdelrahman Abdelkader",
+        "image":"/images/board/Abdelrahman Abdelkader.jpg",
+        "github":"",
+        "linkedin":"",
+        "facebook":"",
+        "email":"",
+        "year":"2025",
+        "description":"Event Coordinator"
+    },    
     {
         "name":"Ibrahim Wael",
         "image":"/images/board/Ibrahim wael.jpg",

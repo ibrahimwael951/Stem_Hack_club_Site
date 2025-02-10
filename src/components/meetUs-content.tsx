@@ -8,9 +8,9 @@ import BoardData from "../Data/ourBoard.json";
  
 
 const MeetUsContent = () => {
-  const [selectedYear, setSelectedYear] = useState(null);
+  const [selectedYear, setSelectedYear] = useState("2025");
 
-  const handleYearChange = (year) => {
+  const handleYearChange = (year: string ) => {
     setSelectedYear(year);
   };
 
@@ -33,13 +33,7 @@ const MeetUsContent = () => {
             {year}
           </button>
         ))}
-        <button
-          onClick={() => handleYearChange(null)}
-          className="px-4 py-2 bg-gray-500 hover:scale-110 text-white rounded duration-150"
-    
-        >
-          Show All
-        </button>
+       
       </div>
 
       
