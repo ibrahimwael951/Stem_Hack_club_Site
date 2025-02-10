@@ -2,17 +2,17 @@
   "members": [
     { "id": 1, "src": "/images/Members-pictures/pic1.jpg", "alt": "pic1" },
 
-    { "id": 2, "src": "/Images/Members-pictures/pic2.jpg", "alt": "pic2" },
+    { "id": 2, "src": "/images/Members-pictures/pic2.jpg", "alt": "pic2" },
 
-    { "id": 3, "src": "/Images/Members-pictures/pic3.jpg", "alt": "pic3" },
+    { "id": 3, "src": "/images/Members-pictures/pic3.jpg", "alt": "pic3" },
 
-    { "id": 4, "src": "/Images/Members-pictures/pic4.jpg", "alt": "pic4" },
+    { "id": 4, "src": "/images/Members-pictures/pic4.jpg", "alt": "pic4" },
 
-    { "id": 5, "src": "/Images/Members-pictures/pic5.jpg", "alt": "pic5" },
+    { "id": 5, "src": "/images/Members-pictures/pic5.jpg", "alt": "pic5" },
 
-    { "id": 6, "src": "/Images/Members-pictures/pic6.jpg", "alt": "pic6" },
+    { "id": 6, "src": "/images/Members-pictures/pic6.jpg", "alt": "pic6" },
 
-    { "id": 7, "src": "/Images/Members-pictures/pic7.jpg", "alt": "pic7" }
+    { "id": 7, "src": "/images/Members-pictures/pic7.jpg", "alt": "pic7" }
   ],
 
   "Projects": [
