@@ -1,7 +1,10 @@
+"use client"
+import { useState } from 'react';
 import Image from 'next/image'
 import projectsData from "@/Data/Images.json"
 const bgProjects = () => {
 
+   
   
   return (
     <div className=" mt-32  mb-10 h-fit flex flex-wrap justify-center items-center gap-x-5 gap-y-10 px-20">

@@ -5,7 +5,7 @@ const QA = () => {
   return (
     <section
       id="Home_Content"
-      className="select-text dark:bg-black  cursor-default  px-10 lg:px-20 py-10   h-fit   flex flex-col justify-evenly"
+      className="select-text    cursor-default  px-10 lg:px-20 py-10   h-fit   flex flex-col justify-evenly"
     >
 
       <div className="flex gap-5 justify-center items-center">

@@ -4,7 +4,7 @@ const CPbg = () => {
     <div className="relative overflow-hidden h-[75vh] w-full flex gap-5 flex-col items-center justify-center select-none  ">
 
             {/* Background */}
-            <div className="CP image absolute left-0 top-0 w-full  h-full brightness-50 "/>
+            <div className="CP image absolute left-0 top-0 w-full  h-full brightness-75 "/>
      
       
       <h1 className="text-2xl md:text-5xl  text-white dark:text-white">Competitive Programming (C++) </h1>
