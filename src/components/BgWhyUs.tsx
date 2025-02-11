@@ -8,10 +8,10 @@ const BgWhyUsp = () => {
              dark:bg-gradient-to-l 
              ">
             <p className="   w-full h-full flex flex-col justify-center items-center "  >
-                <span className={`md:ml-[-40rem]  ${SpanTitle}`}>   We're        </span> 
-                <span className={`md:ml-[-10rem]  ${SpanTitle}`}>   at our best  </span> 
-                <span className={`md:ml-[10rem]   ${SpanTitle}`}>   when we're   </span> 
-                <span className={`md:ml-[40rem]   ${SpanTitle}`}>   making       </span> 
+                <span className={`lg:ml-[-40rem]  ${SpanTitle}`}>   We're        </span> 
+                <span className={`lg:ml-[-10rem]  ${SpanTitle}`}>   at our best  </span> 
+                <span className={`lg:ml-[10rem]   ${SpanTitle}`}>   when we're   </span> 
+                <span className={`lg:ml-[40rem]   ${SpanTitle}`}>   making       </span> 
             </p>
         </div>
   )
