@@ -28,7 +28,7 @@ h2 {
 }
 
 p {
-   @apply   cursor-default  text-lg text-gray-700 dark:text-gray-400  mb-4;
+   @apply   cursor-default  text-lg text-neutral-700 dark:text-neutral-400  mb-4;
 }
 
 

@@ -7,8 +7,8 @@ const CPbg = () => {
             <div className="CP image absolute left-0 top-0 w-full  h-full brightness-50 "/>
      
       
-      <h1 className="text-2xl md:text-5xl  text-white dark:text-white">Competitive Programming (C++) </h1>
-      <p className="px-5 md:text-base text-xs text-center text-white dark:text-white">
+      <h1 className="z-0 text-2xl md:text-5xl  text-white dark:text-white">Competitive Programming (C++) </h1>
+      <p className="z-0 px-5 md:text-base text-xs text-center text-white dark:text-white">
         Competitive programming is a subdiscipline of computer science where programmers solve problems and write code to solv
       </p>
    

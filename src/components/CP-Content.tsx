@@ -11,27 +11,31 @@ const CPContent = () => {
     There were two offline session done at our wonderful boarding school. During the summer vacation, the club had 13 online session: 
     </p>
 
-    <div className='flex  flex-wrap gap-5 justify-center items-center  '>
+  <div className='flex  flex-wrap gap-5 justify-center items-center  '>
     {CPData.map((data,index) => (
      <a 
      href={data.a} 
      target='_blank'
      key={index} 
-     className='group cursor-pointer relative overflow-hidden border dark:border-white border-black rounded-xl w-60 h-32 p-2  '
+     className='group cursor-pointer relative overflow-hidden border dark:border-neutral-700 border-black rounded-xl w-60 h-32 p-2  '
      >
      
-     <h2 className='text-red-600 z-10 text-base'>{data.h1}</h2>
-     <p className=' bg-red-400  z-10 text-sm'>{data.p}</p>
-    
-      <div className='-z-0 absolute top-0 right-0  bg-yellow-500 group-hover: h-40 group-hover: w-60 rounded-xl duration-200'/>
+      <h1 className='text-xl mb-1 text-red-600 dark:text-red-600'>{data.h1}</h1>
+      <p className='text-sm '>{data.p}</p>
+
+      <div className='absolute left-0 bottom-0   w-0 overflow-hidden  h-full group-hover:w-full flex justify-center items-center bg-red-700 dark:bg-red-700'> 
+        <p className='group-hover:scale-100 scale-0 text-white dark:text-white m-0 p-0 cursor-pointer duration-100'>
+          click to see the files
+        </p>
+        </div>
    
  </a>
  
     )
 
 )}
+</div>
 
-    </div>
     </div>
   )
 }

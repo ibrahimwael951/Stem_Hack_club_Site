@@ -28,7 +28,7 @@ const HomeMemberPic = () => {
       </div>
 
       {/* right side */}
-      <Carousel className="w-full md:w-2/4 max-w-96  md:max-w-2xl ">
+      <Carousel className="w-full lg:w-2/4 max-w-96  md:max-w-2xl ">
         <CarouselContent className="-ml-1">
           {MemberPic.members.map((Pictures, index) => (
             <CarouselItem
@@ -54,6 +54,7 @@ const HomeMemberPic = () => {
         </CarouselContent>
         <CarouselPrevious className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
         <CarouselNext className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
+          <p className="w-full text-center text-base animate-bounce pt-4 text-white dark:text-white duration-1000">Swipe to see more pictures</p>
       </Carousel>
     </div>
   );

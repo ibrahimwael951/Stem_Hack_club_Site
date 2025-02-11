@@ -112,7 +112,7 @@ const Navbar = () => {
                 key={index}
                 href={link.href}
                 className="block   text-lg font-semibold text-black dark:text-white hover:text-red-600 dark:hover:text-red-600"
-                onClick={() => setIsMobileMenuOpen(false)} // Close menu after clicking
+                onClick={() => setIsMobileMenuOpen(false)}  
               >
                 {link.Title}
               </Link>

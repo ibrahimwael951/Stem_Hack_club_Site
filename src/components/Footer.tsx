@@ -14,7 +14,7 @@ const Footer = () => {
       <div className=" flex flex-col justify-evenly items-center sm:items-start">
         <h1 className="text-xl text-white ">Stem Hack Club</h1>
         {FLink.Footer.map((link, index) => (
-          <Link className=" pl-4  cursor-pointer transition text-gray-400 dark:text-white  hover:translate-y-[-1px]  dark:hover:text-red-500 hover:text-red-500 duration-150" href={link.href} key={index}>
+          <Link className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-400 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-500 hover:text-red-500 duration-150" href={link.href} key={index}>
             {link.Title}
           </Link>
         ))}
