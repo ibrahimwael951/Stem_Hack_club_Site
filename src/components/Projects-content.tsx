@@ -21,7 +21,7 @@ const bgProjects = () => {
               quality={100}   
               className="object-cover group-hover:brightness-75  h-full w-full" 
               />
-            <div className='group-hover:translate-y-0 bg-white dark:bg-black w-full px-5 absolute bottom-0 left-0 translate-y-20'>
+            <div className='group-hover:translate-y-0 bg-white dark:bg-black w-full px-5 absolute bottom-0 left-0 md:translate-y-20'>
             <h3 className="text-red-500 dark:text-white text-sm font-semibold mt-2">{project.Title}</h3>
             <p className="text-xs ml-2 text-gray-500">{project.description}</p>
             </div>

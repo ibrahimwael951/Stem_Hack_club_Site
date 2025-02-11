@@ -17,7 +17,7 @@
         "facebook":"",
         "email":"",
         "year":"2025",
-        "description":"Cyber Security Mentor" 
+        "description":"Vice President Cyber Security Mentor" 
     }, 
     {
         "name":"Mostafa Emad",
@@ -47,8 +47,18 @@
         "facebook":"",
         "email":"ibrahimwael809@gamil.com",
         "year":"2025",
-        "description":"Application Web Development Mentor" 
-    },    
+        "description":"Web Application Manger" 
+    },   
+    {
+        "name":"Seif Adel",
+        "image":"/images/board/Seif Adel.jpg",
+        "github":"",
+        "linkedin":"",
+        "facebook":"",
+        "email":"",
+        "year":"2025",
+        "description":"Cyber Security Mentor" 
+    },   
     {
         "name":"Mohamed Abdelghany ",
         "image":"/images/board/Mohamed Abdelghany.jpg",
