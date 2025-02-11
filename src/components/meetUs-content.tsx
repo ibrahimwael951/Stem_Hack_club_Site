@@ -17,7 +17,7 @@ const MeetUsContent = () => {
 
  
   return (
-    <div className="flex flex-col gap-10 justify-center items-center px-20">
+    <div className="flex flex-col gap-10 justify-center items-center py-20 px-20">
       <h1>Meet Us</h1>
 
     

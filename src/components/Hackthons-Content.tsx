@@ -3,7 +3,7 @@ import Image from "next/image"
 const HackthonsContent = () => {
   const SrcImg =[ "/images/counterspell-cairo.png","/images/moonlit hacks.png" ]
   return (
-    <div className='p-10 flex flex-col  gap-14 items-center h-screen'>
+    <div className='p-10 flex flex-col  gap-14 items-center h-fit md:h-screen'>
 
         <div className=''>
             <h1>What's a Hackathon</h1>
@@ -14,7 +14,7 @@ const HackthonsContent = () => {
 
 
             <h1>our last Hackathons</h1>
-        <div className='flex justify-center items-center gap-20'>
+        <div className='flex flex-col md:flex-row justify-center items-center gap-20'>
 
           {SrcImg.map((src , index) => (
               <div 

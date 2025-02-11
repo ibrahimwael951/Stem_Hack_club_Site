@@ -1,32 +1,32 @@
-"use client"
-import { useState } from 'react';
 import Image from 'next/image'
-import projectsData from "@/Data/Images.json"
+import projectsData from "@/Data/Projects.json"
 const bgProjects = () => {
 
    
   
   return (
-    <div className=" mt-32  mb-10 h-fit flex flex-wrap justify-center items-center gap-x-5 gap-y-10 px-20">
+    <div className=" py-20 px-10 md:px-20 h-fit w-full flex flex-wrap justify-center items-center gap-x-5 gap-y-10">
 
-      {projectsData.Projects.map((project) => (
-        <div 
-          key={project.id} 
-          className="hover:-translate-y-2 hover:scale-105    flex flex-col justify-evenly items-center p-5 h-[250px] w-[250px] rounded-2xl border border-black dark:border-white cursor-default"
-        >
-          <Image
-            src={`${project.image}`}  
-            alt={project.Title}
-            width={500}  
-            height={500}  
-            quality={100}   
-            className="object-cover  h-2/5 w-full" 
-            />
-
-          <h3 className="text-sm font-semibold mt-2">{project.Title}</h3>
-          <p className="text-xs text-gray-700">{project.description}</p>
-          <a href={project.link} target='_blank' className="text-blue-500 hover:underline">View Project</a>
-        </div>
+      {projectsData.map((project,index) => (
+        <a href={project.link}  target='_blank' className="cursor-pointer">
+          <div 
+            key={index} 
+            className="relative group overflow-hidden hover:-translate-y-5 flex flex-col justify-evenly items-center  h-[250px]   w-full md:w-[250px] rounded-2xl "
+          >
+            <Image
+              src={`${project.image}`}  
+              alt={project.Title}
+              width={500}  
+              height={500}  
+              quality={100}   
+              className="object-cover group-hover:brightness-75  h-full w-full" 
+              />
+            <div className='group-hover:translate-y-0 bg-white dark:bg-black w-full px-5 absolute bottom-0 left-0 translate-y-20'>
+            <h3 className="text-red-500 dark:text-white text-sm font-semibold mt-2">{project.Title}</h3>
+            <p className="text-xs ml-2 text-gray-500">{project.description}</p>
+            </div>
+          </div>
+        </a>
       ))}
  
     </div>

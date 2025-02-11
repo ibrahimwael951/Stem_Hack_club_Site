@@ -5,7 +5,7 @@ const WhyUsContent = () => {
     const DivStyle = "my-4"
  
   return (
-    <section className='flex flex-col justify-evenly  h-fit   select-text cursor-default px-20 py-10'>
+    <section className='flex flex-col justify-evenly  h-fit   select-text cursor-default px-5 lg:px-20 py-10'>
       
         <div className={DivStyle}>
             <h2>STEM Egypt Hack Club</h2>
