@@ -17,12 +17,13 @@ const CPContent = () => {
      href={data.a} 
      target='_blank'
      key={index} 
-     className='group cursor-pointer relative overflow-hidden border dark:border-white border-black rounded-xl w-60 h-32 p-2  '>
+     className='group cursor-pointer relative overflow-hidden border dark:border-white border-black rounded-xl w-60 h-32 p-2  '
+     >
      
      <h2 className='text-red-600 z-10 text-base'>{data.h1}</h2>
-     <p className='  text-sm'>{data.p}</p>
+     <p className=' bg-red-400  z-10 text-sm'>{data.p}</p>
     
-      <div className='-z-0 absolute top-0 right-0 w-0 h-0 bg-red-500 group-hover:h-full group-hover:w-full rounded-xl duration-200'/>
+      <div className='-z-0 absolute top-0 right-0  bg-yellow-500 group-hover: h-40 group-hover: w-60 rounded-xl duration-200'/>
    
  </a>
  

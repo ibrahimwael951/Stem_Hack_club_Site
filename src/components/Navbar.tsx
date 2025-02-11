@@ -20,11 +20,11 @@ const Navbar = () => {
     "cursor-pointer transition dark:text-white hover:translate-y-[-1px] duration-150";
 
 
-  // Track the navbar background color on scroll
+   
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Handle the background change on scroll
+ 
   useEffect(() => {
     const handleScroll = () => {
       const offset = 0;
@@ -79,30 +79,39 @@ const Navbar = () => {
 
       {/* Mobile Nav Menu Button */}
       <button
-        className="lg:hidden text-3xl"
+        className={`lg:hidden inline text-3xl ${hasScrolled ? "text-black dark:text-white" : "text-white"}` }
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
         <CiMenuFries />
       </button>
 
+
       {/* Mobile Nav Menu   */}
-      {isMobileMenuOpen && (
         <div 
-          className="lg:hidden fixed top-0 left-0 w-full h-screen bg-black bg-opacity-70 flex items-center justify-center z-30 select-none " >
+           className={`lg:hidden fixed top-0 left-0 w-full bg-white dark:bg-black h-screen flex items-center   justify-center z-30 select-none ${isMobileMenuOpen? "opacity-100 translate-x-0": "opacity-0 translate-x-full"} `}
+           >
+ 
+                
+          
           <button
-            className="text-white lg:hidden text-3xl absolute top-4 right-16"
+            className="lg:hidden z-10 text-3xl absolute top-4 right-4 text-black dark:text-white"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <FaWindowClose />
           </button>
           
 
-          <div className="bg-white dark:bg-black   p-6 rounded-lg shadow-lg flex flex-col justify-center items-center border border-black dark:border-white">
+          <div 
+            className={`
+                       flex flex-col justify-center items-center gap-7   
+                ${isMobileMenuOpen ? "scale-100" : "scale-0"} 
+                `}
+          >
             {NLink.Nav.map((link, index) => (
               <Link
                 key={index}
                 href={link.href}
-                className="block py-2 text-lg font-semibold text-black dark:text-white hover:text-gray-600"
+                className="block   text-lg font-semibold text-black dark:text-white hover:text-red-600 dark:hover:text-red-600"
                 onClick={() => setIsMobileMenuOpen(false)} // Close menu after clicking
               >
                 {link.Title}
@@ -112,7 +121,7 @@ const Navbar = () => {
             <ModeToggle/>
           </div>
         </div>
-      )}
+      
     </div>
   );
 };
