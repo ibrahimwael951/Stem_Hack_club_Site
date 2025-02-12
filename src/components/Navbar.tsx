@@ -56,7 +56,7 @@ const Navbar = () => {
       </Link>
 
       {/* Desktop/Tablet Nav List */}
-      <div className="hidden lg:flex gap-6 select-none">
+      <div className="hidden lg:flex gap-3 select-none">
         {NLink.Nav.map((link, index) => (
           <Link
             className={`${LiStyle} ${
