@@ -22,20 +22,20 @@
     {
         "name":"Mostafa Emad",
         "image":"/images/board/Mostafa Emad.jpg",
-        "github":"",
+        "github":"https://github.com/mostafaemad2007",
         "linkedin":"",
         "facebook":"",
-        "email":"",
+        "email":"mostafa2007emad@gmail.com",
         "year":"2025",
         "description":"Vice President and Competitive Programming Mentor" 
     },    
     {
         "name":"Abdelrahman Abdelkader",
         "image":"/images/board/Abdelrahman Abdelkader.jpg",
-        "github":"",
-        "linkedin":"",
+        "github":"https://github.com/B000DT",
+        "linkedin":"https://www.linkedin.com/in/abdelrahman-mohamed-27449a291/",
         "facebook":"",
-        "email":"",
+        "email":"abdelrahmanabdelkader323@gmail.com",
         "year":"2025",
         "description":"Event Coordinator"
     },    
@@ -49,6 +49,16 @@
         "year":"2025",
         "description":"Web Application Manger" 
     },   
+    {
+        "name":"Abdallah Ebrahim",
+        "image":"/images/board/unknown.jpg",
+        "github":"https://github.com/0xDracula",
+        "linkedin":"",
+        "facebook":"",
+        "email":"abdallah.ebrahim.official@gmail.com",
+        "year":"2025",
+        "description":"Cyber Security Mentor" 
+    }, 
     {
         "name":"Seif Adel",
         "image":"/images/board/Seif Adel.jpg",

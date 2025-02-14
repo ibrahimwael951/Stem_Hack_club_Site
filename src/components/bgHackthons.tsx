@@ -1,4 +1,3 @@
-
 const bgHackthons = () => {
   return (
     <div className="select-none relative h-[75vh] flex justify-center items-center flex-col ">

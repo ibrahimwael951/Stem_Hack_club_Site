@@ -1,14 +1,15 @@
 
 //component 
 import BgHomePage from "@/components/bgHomePage";
-import QAHomePage from "@/components/Home-Qustions";
-
+import HomeContent from "@/components/Home-Content";
 export default function Home() {
+
   return (
-   <div className="select-none   text-white">
+   <div className="text-white">
 
       <BgHomePage/>
-      <QAHomePage/>
+      <HomeContent/>
+    
 
    </div>
   );

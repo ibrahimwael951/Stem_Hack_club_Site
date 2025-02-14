@@ -7,14 +7,29 @@ import { SiHackclub } from "react-icons/si";
 import FLink from "@/Data/Links.json";
 
 const Footer = () => {
-  
-
   return (
-    <section className="p-10 bg-slate-700 dark:bg-neutral-900  flex flex-col sm:flex-row   justify-evenly items-center  gap-10">
-      <div className=" flex flex-col justify-evenly items-center sm:items-start">
+    <section className="p-10 bg-slate-700 dark:bg-neutral-900  flex flex-col md:flex-row   justify-evenly items-center md:items-start  gap-10">
+      <div className=" flex flex-col justify-evenly items-center md:items-start">
         <h1 className="text-xl text-white ">Stem Hack Club</h1>
-        {FLink.Footer.map((link, index) => (
-          <Link className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-400 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-500 hover:text-red-500 duration-150" href={link.href} key={index}>
+        {FLink.Footer["stem hack club"].map((link, index) => (
+          <Link
+            className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-400 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+            href={link.href}
+            key={index}
+          >
+            {link.Title}
+          </Link>
+        ))}
+      </div>
+
+      <div className="flex flex-col justify-evenly items-center md:items-start">
+        <h1 className="text-xl text-white ">Challenges</h1>
+        {FLink.Footer["challenges"].map((link, index) => (
+          <Link
+            className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-400 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+            href={link.href}
+            key={index}
+          >
             {link.Title}
           </Link>
         ))}

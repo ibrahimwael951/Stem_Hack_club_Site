@@ -1,21 +1,56 @@
-import * as React from "react";
+import React from "react";
 
+// react icons
+import { FaHandshake } from "react-icons/fa";
+import { IoSpeedometerOutline } from "react-icons/io5";
+import { BiBookBookmark } from "react-icons/bi";
+
+// components
 import MemberPic from "@/components/Home-MemberPic";
+import Homehackthon from "@/components/Home-hackthon";
+
 const QA = () => {
+  const GoalsList = [
+    {
+      Icon: IoSpeedometerOutline,
+      p: "Develop your skills by building quirky, unique projects",
+    },
+    {
+      Icon: FaHandshake,
+      p: "Together, we utilize our expertise to build each other up to become better makers and hackers as a whole!",
+    },
+    {
+      Icon: BiBookBookmark,
+      p: "Free sessions for everyone to participate and learn something new",
+    },
+  ];
   return (
     <section
       id="Home_Content"
-      className="select-text    cursor-default  px-5 lg:px-20 py-10   h-fit   flex flex-col justify-evenly"
+      className="select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly"
     >
-
-      <div className="flex gap-5 justify-center items-center">
-        
-
+      {/* our club goals */}
+      <div className=" ">
+        <h1 className="mb-10">Our Club Goals</h1>
+        <div className="flex flex-col gap-5 lg:gap-10 md:flex-row flex-wrap justify-evenly items-center  ">
+          {GoalsList.map((List, index) => (
+            <div
+              key={index}
+              className="flex flex-col justify-center gap-5 items-center  w-full h-52 hover:-translate-y-2 max-w-96 border border-neutral-500 px-5 rounded-xl"
+            >
+              {React.createElement(List.Icon, {
+                size: 50,
+                className: "text-black dark:text-white",
+              })}
+              <p className="text-sm text-center">{List.p}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
-
+      {/* questions */}
       <div>
-        <h1>What's a Hacker?</h1>
+        <h1 className="mb-3">What's a Hacker?</h1>
         <p className="pl-5">
           A hacker is not always someone who trespasses on banks or plunders a
           friend's V-Bucks. Hackers are individuals who identify problems that
@@ -38,7 +73,7 @@ const QA = () => {
       </div>
 
       <div>
-        <h1>What is Hack Club?</h1>
+        <h1 className="mb-3">What is Hack Club?</h1>
         <p className="pl-5">
           We have an official affiliation with the student organization
           <a href="https://hackclub.com" id="hackclub" target="_blank">
@@ -91,8 +126,9 @@ const QA = () => {
         </p>
       </div>
 
-      <MemberPic/>
-
+      {/* Components */}
+      <MemberPic />
+      <Homehackthon />
     </section>
   );
 };

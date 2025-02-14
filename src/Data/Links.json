@@ -3,16 +3,28 @@
     { "href": "/", "Title": "Home" },
     { "href": "/Why-Us", "Title": "Why Us" },
     { "href": "/Meet-Us", "Title": "Meet Us" },
-    { "href": "/Hackathons", "Title": "Hackathons" },
-    { "href": "/Projects", "Title": "Projects" },
-    { "href": "/Competitive-Programming", "Title": "Competitive Programming" },
-    { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
-  ],
-  "Footer": [
-    { "href": "/", "Title": "Home" },
-    { "href": "/Meet-Us", "Title": "Meet Us" },
-    { "href": "/Why-Us", "Title": "Why Us" },
-    { "href": "/Hackathons", "Title": "Hackathons" },
     { "href": "/Projects", "Title": "Projects" }
-  ]
+  ],
+  "Footer":{
+    "stem hack club":[
+      { "href": "/", "Title": "Home" },
+      { "href": "/Meet-Us", "Title": "Meet Us" },
+      { "href": "/Why-Us", "Title": "Why Us" },
+      { "href": "/Projects", "Title": "Projects" }
+    ],
+    "challenges":[
+      { "href": "/Hackathons", "Title": "Hackathons" },
+      { "href": "/Competitive-Programming", "Title": "Competitive Programming" },
+      { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
+    ],
+    "mobileView":[
+      { "href": "/", "Title": "Home" },
+      { "href": "/Meet-Us", "Title": "Meet Us" },
+      { "href": "/Why-Us", "Title": "Why Us" },
+      { "href": "/Projects", "Title": "Projects" },
+      { "href": "/Hackathons", "Title": "Hackathons" },
+      { "href": "/Competitive-Programming", "Title": "Competitive Programming" },
+      { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
+    ]
+  }
 }

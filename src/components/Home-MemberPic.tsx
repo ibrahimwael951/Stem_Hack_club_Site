@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/carousel";
 const HomeMemberPic = () => {
   return (
-    <div className=" py-20 w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-none ">
+    <div className="w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-none ">
       {/* left side */}
       <div className="w-full lg:w-2/5  ">
         <h1 className="mb-5">some pictures of us </h1>
@@ -54,7 +54,9 @@ const HomeMemberPic = () => {
         </CarouselContent>
         <CarouselPrevious className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
         <CarouselNext className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
-          <p className="w-full text-center text-base animate-bounce pt-4 text-white dark:text-white duration-1000">Swipe to see more pictures</p>
+        <p className="w-full text-center text-base animate-bounce pt-4 text-white dark:text-white duration-1000">
+          Swipe to see more pictures
+        </p>
       </Carousel>
     </div>
   );
