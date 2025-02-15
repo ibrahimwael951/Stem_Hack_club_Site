@@ -56,7 +56,7 @@ export function NavigationMenuDemo() {
               hasScrolled ? "text-black dark:text-white  " : "text-white"
             }`}
           >
-            Challenges
+             Events & Competitions
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="p-2 md:w-[300px]">
