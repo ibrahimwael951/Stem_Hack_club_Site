@@ -1,7 +1,7 @@
 
 //components 
 import Content from "@/components/meetUs-content"
-import BgMeetUs from "@/components/BgMeetUs"
+import BgMeetUs from "@/components/bgMeetUs"
 
 export default function page() {
   return (
