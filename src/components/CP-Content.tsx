@@ -1,10 +1,24 @@
+"use client";
 //data CP
 import CPData from "../Data/Competitive-Programming.json";
+
+// animation for scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const CPContent = () => {
+  // animation
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="px-5 lg:px-20 py-10 flex flex-col gap-5">
-      <h1 className="text-2xl ">Competitive Programming (C++)</h1>
-      <p className="ml-5">
+      <h1 data-aos="fade-right" className=" text-xl md:text-2xl ">
+        Competitive Programming (C++)
+      </h1>
+      <p data-aos="fade-right" className="ml-5">
         The competitive programming branch is a branch that has the goal of
         giving introductory sessions in algorithms, problem solving, and
         solution-oriented thinking. This is a concluding report that summarizes
@@ -32,7 +46,8 @@ const CPContent = () => {
         CodeForces. Note that the group should be joined before entering the
         contest.
       </p>
-      <p>
+      <hr />
+      <p className="ml-5" data-aos="fade-right">
         There were two offline session done at our wonderful boarding school.
         During the summer vacation, the club had 13 online session:
       </p>
@@ -40,6 +55,7 @@ const CPContent = () => {
       <div className="flex  flex-wrap gap-5 justify-center items-center  ">
         {CPData.map((data, index) => (
           <a
+            data-aos="zoom-in"
             href={data.a}
             target="_blank"
             key={index}

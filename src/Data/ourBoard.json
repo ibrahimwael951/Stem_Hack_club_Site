@@ -1,33 +1,33 @@
 [
     {
-        "name":"Mostafa Mohammad ",
+        "name":"Mostafa Mohammad",
         "image":"/images/board/Mostafa Mohammad.jpg",
-        "github":"",
-        "linkedin":"",
+        "github":"https://github.com/TifA12-sta",
+        "linkedin":"linkedin.com/in/mostafa-mohammad-13ba27313",
         "facebook":"",
-        "email":"",
+        "email":"mostafamohmed2568@gmail.com",
         "year":"2025",
-        "description":"president and Competitive Programming Mentor " 
+        "description":"President and Competitive Programming Mentor " 
     },
     {
-        "name":"Belal Mostafa ",
+        "name":"Belal Mostafa",
         "image":"/images/board/Belal Mostafa .jpg",
         "github":"",
-        "linkedin":"",
-        "facebook":"",
-        "email":"",
+        "linkedin":"https://www.linkedin.com/in/belal-mostafa-37779a243 ",
+        "facebook":"https://www.facebook.com/share/15EUW4xTUs/",
+        "email":"bm5428794@gmail.com",
         "year":"2025",
-        "description":"Vice President Cyber Security Mentor" 
+        "description":"Vice and President Cyber Security Mentor" 
     }, 
     {
         "name":"Mostafa Emad",
         "image":"/images/board/Mostafa Emad.jpg",
         "github":"https://github.com/mostafaemad2007",
-        "linkedin":"",
+        "linkedin":"https://www.linkedin.com/in/mostafa-ahmed-42ab50343/",
         "facebook":"",
         "email":"mostafa2007emad@gmail.com",
         "year":"2025",
-        "description":"Vice President and Competitive Programming Mentor" 
+        "description":"Vice and President and Competitive Programming Mentor" 
     },    
     {
         "name":"Abdelrahman Abdelkader",
@@ -51,7 +51,7 @@
     },   
     {
         "name":"Abdallah Ebrahim",
-        "image":"/images/board/unknown.jpg",
+        "image":"/images/board/Abdallah Ebrahim.jpg",
         "github":"https://github.com/0xDracula",
         "linkedin":"",
         "facebook":"",
@@ -65,27 +65,37 @@
         "github":"",
         "linkedin":"",
         "facebook":"",
-        "email":"",
+        "email":"seifadelgd@gmail.com",
         "year":"2025",
         "description":"Cyber Security Mentor" 
-    },   
+    }, 
+    {
+        "name":"Islam Abdelsalam",
+        "image":"/images/board/Islam Abdelsalam .jpg",
+        "github":"",
+        "linkedin":"linkedin.com/in/islam-abdelsalam-mohamed-elwadea-b0b158277",
+        "facebook":"",
+        "email":"seifadelgd@gmail.com",
+        "year":"2025",
+        "description":"Graphic Designer" 
+    },     
     {
         "name":"Mohamed Abdelghany ",
         "image":"/images/board/Mohamed Abdelghany.jpg",
-        "github":"",
-        "linkedin":"",
+        "github":"https://github.com/mohamado-des",
+        "linkedin":"www.linkedin.com/in/mohamed-abdelghani00physicsclub2025",
         "facebook":"",
-        "email":"",
+        "email":"mi7302008@gmail.com",
         "year":"2025",
         "description":"Game Development Mentor" 
     },    
     {
         "name":"Mohamed Abdelaziz ",
         "image":"/images/board/Mohamed Abdelaziz .jpg",
-        "github":"",
+        "github":"https://github.com/DsMans0021",
         "linkedin":"",
         "facebook":"",
-        "email":"",
+        "email":"moriarty.ds.mans@gmail.com",
         "year":"2025",
         "description":"Game Development Mentor" 
     },    
@@ -93,10 +103,10 @@
     {
         "name":"Mohab Abdelrahman",
         "image":"/images/board/Mohab Abdelrahman.jpg",
-        "github":"",
-        "linkedin":"",
+        "github":" https://github.com/mohabstudentC",
+        "linkedin":"https://www.linkedin.com/in/mohab-hussien-b3a141295/",
         "facebook":"",
-        "email":"",
+        "email":"gomohab08@gmail.com",
         "year":"2025",
         "description":"Competitive Programming Mentor" 
     },    
@@ -107,17 +117,17 @@
         "github":"",
         "linkedin":"",
         "facebook":"",
-        "email":"",
+        "email":"Mohamedr7825@gmail.com",
         "year":"2025",
         "description":"App development Mentor" 
     },    
     {
         "name":"Tareq Khalil ",
         "image":"/images/board/Tareq Khalil .jpg",
-        "github":"",
+        "github":"https://github.com/tareq-khalil",
         "linkedin":"",
-        "facebook":"",
-        "email":"",
+        "facebook":"https://www.facebook.com/share/16LVc9sWLF/",
+        "email":"tareqkhalil1415@gmail.com",
         "year":"2025",
         "description":"App development Mentor" 
     },    

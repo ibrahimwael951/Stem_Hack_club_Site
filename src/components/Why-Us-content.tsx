@@ -1,11 +1,20 @@
-import React from "react";
+"use client";
+
+// animation for scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const WhyUsContent = () => {
+  // animation
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const DivStyle = "my-4";
 
   return (
     <section className="flex flex-col justify-evenly  h-fit   select-text cursor-default px-5 lg:px-20 py-10">
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3">STEM Egypt Hack Club</h2>
         <p className="ml-4">
           At STEM Egypt Hack Club, we are a welcoming Egyptian and Arabian
@@ -18,7 +27,7 @@ const WhyUsContent = () => {
         </p>
       </div>
 
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3">Our annual Bootcamp</h2>
         <p className="ml-4">
           Our<b> Annual Bootcamp ,</b>, held in August or September, is open to
@@ -35,7 +44,7 @@ const WhyUsContent = () => {
         </p>
       </div>
 
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3">Final Projects </h2>
         <p className="ml-4">
           We foster a collaborative community of coders and makers, guiding them
@@ -47,7 +56,7 @@ const WhyUsContent = () => {
         </p>
       </div>
 
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3"> Hackathons and Events </h2>
         <p className="ml-4">
           Every season we do two hackathons: a project hackathon
@@ -61,7 +70,7 @@ const WhyUsContent = () => {
         </p>
       </div>
 
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3">Arts </h2>
         <p className="ml-4">
           As we do not want to keep the
@@ -71,7 +80,7 @@ const WhyUsContent = () => {
         </p>
       </div>
 
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3">Articles & Research Projects </h2>
         <p className="ml-4">
           As we expect more from each maker in the club, we offered them
@@ -90,7 +99,7 @@ const WhyUsContent = () => {
         </p>
       </div>
 
-      <div className={DivStyle}>
+      <div data-aos="fade-right" className={DivStyle}>
         <h2 className="mb-3"> Code Of Conduct</h2>
         <h3>Treat everyone with respect and kindness.</h3>
         <h3>Be thoughtful in how you communicate.</h3>

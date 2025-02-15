@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import MemberPic from "@/Data/Images.json";
@@ -9,11 +9,21 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+
+// animation for scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const HomeMemberPic = () => {
+  // animation
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-none ">
       {/* left side */}
-      <div className="w-full lg:w-2/5  ">
+      <div data-aos="fade-right" className="w-full lg:w-2/5  ">
         <h1 className="mb-5">some pictures of us </h1>
         <p className="text-lg text-gray-700 pl-5">
           Our community is full of creativity and mutual support. We’re always

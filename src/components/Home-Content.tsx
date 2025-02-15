@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 
 // react icons
 import { FaHandshake } from "react-icons/fa";
@@ -7,9 +8,18 @@ import { BiBookBookmark } from "react-icons/bi";
 
 // components
 import MemberPic from "@/components/Home-MemberPic";
-import Homehackthon from "@/components/Home-hackthon";
+import Homehackthon from "@/components/Home-Hackathons";
+
+// animation for scroll
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const QA = () => {
+  // animation
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   const GoalsList = [
     {
       Icon: IoSpeedometerOutline,
@@ -27,7 +37,7 @@ const QA = () => {
   return (
     <section
       id="Home_Content"
-      className="select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly"
+      className="overflow-hidden select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly"
     >
       {/* our club goals */}
       <div className=" ">
@@ -35,8 +45,9 @@ const QA = () => {
         <div className="flex flex-col gap-5 lg:gap-10 md:flex-row flex-wrap justify-evenly items-center  ">
           {GoalsList.map((List, index) => (
             <div
+              data-aos="zoom-in"
               key={index}
-              className="flex flex-col justify-center gap-5 items-center  w-full h-52 hover:-translate-y-2 max-w-96 border border-neutral-500 px-5 rounded-xl"
+              className="flex flex-col justify-center gap-5 items-center  w-full h-52 max-w-96 border border-neutral-500 px-5 rounded-xl"
             >
               {React.createElement(List.Icon, {
                 size: 50,
@@ -49,9 +60,9 @@ const QA = () => {
       </div>
 
       {/* questions */}
-      <div>
+      <div data-aos="fade-right">
         <h1 className="mb-3">What's a Hacker?</h1>
-        <p className="pl-5">
+        <p>
           A hacker is not always someone who trespasses on banks or plunders a
           friend's V-Bucks. Hackers are individuals who identify problems that
           need to be solved and devise the most practical-efficient solutions.
@@ -72,7 +83,7 @@ const QA = () => {
         </p>
       </div>
 
-      <div>
+      <div data-aos="fade-right">
         <h1 className="mb-3">What is Hack Club?</h1>
         <p className="pl-5">
           We have an official affiliation with the student organization

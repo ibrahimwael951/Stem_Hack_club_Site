@@ -1,10 +1,13 @@
 "use client";
-import { SetStateAction, useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import Image from "next/image";
 
 import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // استيراد أيقونات من react-icons
 // data
 import BoardData from "../Data/ourBoard.json";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const MeetUsContent = () => {
   const [selectedYear, setSelectedYear] = useState("2025");
@@ -13,6 +16,10 @@ const MeetUsContent = () => {
     setSelectedYear(year);
   };
 
+  // for animations
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="flex flex-col gap-10 justify-center items-center py-20 px-20">
       <h1>Meet Us</h1>
@@ -38,17 +45,18 @@ const MeetUsContent = () => {
             (selectedYear === null ||
               String(member.year) === String(selectedYear)) && (
               <div
+                data-aos="zoom-in"
                 key={index}
                 className="group  relative overflow-hidden h-fit w-fit flex flex-col justify-end items-center rounded-xl"
               >
                 <Image
-                  className=" group-hover:scale-110 h-auto w-56 -z-0 select-none bg-white"
+                  className=" group-hover:scale-110 h-auto w-72 -z-0 select-none bg-white"
                   src={member.image}
                   alt={member.name}
                   width={500}
                   height={500}
                 />
-                <div className="absolute bottom-0 left-0 w-full flex flex-col justify-center items-center bg-gradient-to-t from-black via-[#000000a1] to-transparent bg-opacity-45">
+                <div className="absolute -bottom-1 left-0 w-full flex flex-col justify-center items-center bg-gradient-to-t from-black via-[#000000a1] to-transparent bg-opacity-45">
                   <h2 className="text-white dark:text-white  text-lg text-shadow">
                     {member.name}
                   </h2>
