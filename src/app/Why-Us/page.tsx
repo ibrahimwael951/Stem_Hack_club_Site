@@ -1,5 +1,5 @@
 //component
-import BgWhyUs from "@/components/bgWhyUs";
+import BgWhyUs from "@/components/BgMeetUs";
 import Content from "@/components/Why-Us-content";
 export default function page() {
   return (
