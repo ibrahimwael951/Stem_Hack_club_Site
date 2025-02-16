@@ -32,7 +32,7 @@ const Footer = () => {
             href={link.href}
             key={index}
           >
-            {link.title}
+            {link.Title}
           </Link>
         ))}
       </div>
