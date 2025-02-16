@@ -72,7 +72,7 @@ export function NavigationMenuDemo() {
             Tracks
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 lg:w-[400px] 2xl:w-[500px] lg:grid-cols-[.75fr_1fr]">
+            <ul className="grid gap-3 p-4 lg:w-[400px] 2xl:w-[500px] lg:grid-cols-[1fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link

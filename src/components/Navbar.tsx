@@ -98,23 +98,63 @@ const Navbar = () => {
           <FaWindowClose />
         </button>
 
+      <div className="absolute left-4 top-4">
+        <ModeToggle />
+      </div>
+
         <div
           className={`
                        flex flex-col justify-center items-center gap-7   
                 ${isMobileMenuOpen ? "scale-100" : "scale-0"} 
                 `}
         >
-          {NLink.Footer.mobileView.map((link, index) => (
-            <Link
-              key={index}
-              href={link.href}
-              className="block   text-lg font-semibold text-black dark:text-white hover:text-red-600 dark:hover:text-red-600"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              {link.Title}
-            </Link>
-          ))}
-          <ModeToggle />
+
+      <div className=" flex flex-col justify-center items-center">
+              <h1 className="text-xl text-black dark:text-white ">Stem Hack Club</h1>
+              {NLink.Footer["stem hack club"].map((link, index) => (
+                <Link
+                  className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-600 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+                  href={link.href}
+                  key={index}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.Title}
+                </Link>
+              ))}
+            </div>
+
+
+            <div className=" flex flex-col justify-center items-center">
+              <h1 className="text-xl text-black dark:text-white ">Tracks</h1>
+              {NLink.Footer["Tracks"].map((link, index) => (
+                <Link
+                  className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-600 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+                  href={link.href}
+                  key={index}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.Title}
+                </Link>
+              ))}
+            </div>
+
+
+            <div className=" flex flex-col justify-center items-center">
+              <h1 className="text-xl text-black dark:text-white ">Event & Competitions</h1>
+              {NLink.Footer["challenges"].map((link, index) => (
+                <Link
+                  className=" pl-4 my-1  text-lg cursor-pointer transition text-gray-600 dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+                  href={link.href}
+                  key={index}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.Title}
+                </Link>
+              ))}
+            </div>
+
+          
+          
         </div>
       </div>
     </div>

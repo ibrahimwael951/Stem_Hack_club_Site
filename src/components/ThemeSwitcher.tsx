@@ -19,7 +19,7 @@ export function ModeToggle() {
       onClick={handleThemeChange}
       variant="outline"
       size="icon"
-      className="relative flex items-center justify-center rounded-lg"
+      className="relative flex items-center justify-center rounded-lg border dark:border-white border-black"
     >
       <Sun
         className={`h-[1.2rem] w-[1.2rem] transition-all duration-300 ${
@@ -27,7 +27,7 @@ export function ModeToggle() {
         }`}
       />
       <Moon
-        className={`absolute h-[1.2rem] w-[1.2rem] transition-all duration-300 ${
+        className={`absolute h-[1.2rem] w-[1.2rem] transition-all duration-300   ${
           theme === "light" ? "hidden" : "block"
         }`}
       />

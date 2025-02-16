@@ -11,14 +11,14 @@ const HackthonsContent = () => {
   useEffect(() => {
     Aos.init();
   }, []);
-  const SrcImg = [
-    "/images/counterspell-cairo.png",
-    "/images/moonlit hacks.png",
+  const hackathons = [
+    { image:"/images/counterspell-cairo.png", title:"Counterspell-Giza"},
+    {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
   ];
   return (
     <div className="p-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
       <div className="">
-        <h1 data-aos="fade-right">What's a Hackathon</h1>
+        <h1 data-aos="fade-right" className="mb-4">What's a Hackathon</h1>
         <p data-aos="fade-right" className="ml-4">
           A hackathon is a space that helps give makers everything they need to
           start building–mentors, collaborators, inspiration, and a goal to work
@@ -29,22 +29,22 @@ const HackthonsContent = () => {
 
       <h1>our last Hackathons</h1>
       <div className="flex flex-col md:flex-row justify-center items-center gap-20">
-        {SrcImg.map((src, index) => (
+        {hackathons.map((component, index) => (
           <div
             data-aos="zoom-in"
             key={index}
-            className=" p-10 h-52 w-80 bg-slate-400 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-center items-center  select-none group hover:scale-110 hover:-translate-y-3"
+            className=" p-10 h-52 w-80 bg-slate-400 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
           >
             <Image
-              src={src}
+              src={component.image}
               width={500}
               height={500}
               alt="pic"
-              className="group-hover:scale-90"
+              className=""
             />
 
-            <h1 className="text-lg group-hover:scale-125 text-white dark:text-white">
-              MoonLit Hacks
+            <h1 className="text-lg text-white dark:text-white">
+              {component.title}
             </h1>
           </div>
         ))}
