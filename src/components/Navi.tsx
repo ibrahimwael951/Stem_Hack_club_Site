@@ -16,17 +16,17 @@ const TraksLinks :{title: string ; href: string; description : string}[]= [
   {
     title: "Game Development",
     href: "/game-development",
-    description: "Learn how to create games with our tutorials and courses.",
+    description: "From pixels to playtime—turn your wildest ideas into addictive games!",
   },
   {
   title:"App Development ",
   href: "/app-development",
-  description: "Learn how to create apps with our tutorials and courses.",
+  description: "Build apps, change lives—because the world needs your next big idea!",
   },
   {
     title: "Cyber Security ",
     href: "/cyber-security",
-    description: "Learn how to protect yourself and your business from cyber threats.",
+    description: "Hack the hackers (legally, of course) and keep the digital world one step safer!",
   },
  
 ]
@@ -84,7 +84,8 @@ export function NavigationMenuDemo() {
                       
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                    its a competitive programming by C++ 
+                    Code fast, debug faster—where brainpower meets the ultimate algorithmic showdown!
+                    
                     </p>
                   </Link>
                 </NavigationMenuLink>
