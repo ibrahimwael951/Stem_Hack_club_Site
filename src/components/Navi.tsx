@@ -7,21 +7,34 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
+  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-const components: { title: string; href: string; description: string }[] = [
+const TraksLinks :{title: string ; href: string; description : string}[]= [
+  {
+    title: "Game Development",
+    href: "/game-development",
+    description: "Learn how to create games with our tutorials and courses.",
+  },
+  {
+  title:"App Development ",
+  href: "/app-development",
+  description: "Learn how to create apps with our tutorials and courses.",
+  },
+  {
+    title: "Cyber Security ",
+    href: "/cyber-security",
+    description: "Learn how to protect yourself and your business from cyber threats.",
+  },
+ 
+]
+const EventsLinks: { title: string; href: string; description: string }[] = [
   {
     title: "Hackathons",
     href: "/Hackathons",
-    description:
-      " Find and participate in hackathons, coding challenges, and other tech events.",
-  },
-  {
-    title: "Competitive-Programming",
-    href: "/Competitive-Programming",
-    description: "its a competitive programming by C++ ",
+    description: "Hackathons are a great way to learn new skills, meet new people, and have fun whil" ,
   },
   {
     title: "Teen-hack-competition",
@@ -50,6 +63,50 @@ export function NavigationMenuDemo() {
   return (
     <NavigationMenu className="duration-200">
       <NavigationMenuList>
+      <NavigationMenuItem>
+          <NavigationMenuTrigger
+           className={`bg-transparent ${
+            hasScrolled ? "text-black dark:text-white  " : "text-white"
+          }`}
+          >
+            Tracks
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="grid gap-3 p-4 lg:w-[400px] 2xl:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              <li className="row-span-3">
+                <NavigationMenuLink asChild>
+                  <Link
+                    className="text-sm flex h-full w-full select-none flex-col justify-center rounded-md bg-slate-300 dark:bg-neutral-800 p-6 "
+                    href="/Competitive-Programming"
+                  >
+                    Competitive-Programming
+                    <div className="mb-2 mt-4 text-lg font-medium">
+                      
+                    </div>
+                    <p className="text-sm leading-tight text-muted-foreground">
+                    its a competitive programming by C++ 
+                    </p>
+                  </Link>
+                </NavigationMenuLink>
+              </li>
+             {TraksLinks.map((track,index)=> (
+              <Link 
+                key={index}
+                href={track.href}
+                className="hover:bg-slate-300 dark:hover:bg-neutral-800  p-2 rounded-xl cursor-pointer duration-200"
+              >
+                <h1 className="text-red-500 dark:text-red-500 text-sm">
+                  {track.title}
+                </h1>
+              <p className="text-sm cursor-pointer">
+                {track.description}
+              </p>
+              </Link>
+             ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger
             className={`bg-transparent ${
@@ -59,8 +116,8 @@ export function NavigationMenuDemo() {
              Events & Competitions
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="p-2 md:w-[300px]">
-              {components.map((component) => (
+            <ul className="p-2 lg:w-[400px] 2xl:w-[500px]">
+              {EventsLinks.map((component) => (
                 <Link
                   className="cursor-pointer"
                   key={component.title}

@@ -21,10 +21,10 @@ const HomeMemberPic = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-none ">
+    <div className="w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-text ">
       {/* left side */}
       <div data-aos="fade-right" className="w-full lg:w-2/5  ">
-        <h1 className="mb-5">some pictures of us </h1>
+        <h1 className="mb-5"> Our Community </h1>
         <p className="text-lg text-gray-700 pl-5">
           Our community is full of creativity and mutual support. We’re always
           there for each other, sharing knowledge and experiences, and everyone

@@ -14,9 +14,15 @@
     ],
     "challenges":[
       { "href": "/Hackathons", "Title": "Hackathons" },
-      { "href": "/Competitive-Programming", "Title": "Competitive Programming" },
       { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
     ],
+    "Tracks":[
+      {"href":"/Competitive-Programming" , "title":"Competitive-Programming"},
+      {"href":"/Game Development" , "title":"Game Development"},
+      {"href":"/App Development" , "title":"App Development"},
+      {"href":"/Cyber Security" , "title":"Cyber Security"}  
+    ],
+
     "mobileView":[
       { "href": "/", "Title": "Home" },
       { "href": "/Meet-Us", "Title": "Meet Us" },

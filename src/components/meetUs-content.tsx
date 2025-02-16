@@ -50,7 +50,7 @@ const MeetUsContent = () => {
                 className="group  relative overflow-hidden h-fit w-fit flex flex-col justify-end items-center rounded-xl"
               >
                 <Image
-                  className=" group-hover:scale-110 h-auto w-72 -z-0 select-none bg-white"
+                  className=" group-hover:scale-110 h-auto w-64 -z-0 select-none bg-white"
                   src={member.image}
                   alt={member.name}
                   width={500}

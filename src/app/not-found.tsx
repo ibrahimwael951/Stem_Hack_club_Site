@@ -8,7 +8,7 @@ export default function notfound() {
       <div className='flex flex-col items-center gap-5 z-10'>
           <h1 className='text-5xl text-red-500 select-none'>Error 404</h1>
         <h1 className='text-2xl md:text-4xl cursor-default'>Sry mate this page not found </h1>
-        <Link href="/" className='button-not-found  select-none'>Go back to Home</Link>
+        <Link href="/" className='button-not-found  select-none dark:bg-white dark:text-black dark:hover:text-white dark:hover:bg-indigo-600'>Go back to Home</Link>
       </div>
       <Image 
        className='w-96 h-96 select-none md:right-24 lg:right-60'
