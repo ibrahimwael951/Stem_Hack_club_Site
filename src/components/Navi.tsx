@@ -15,17 +15,17 @@ import {
 const TraksLinks :{title: string ; href: string; description : string}[]= [
   {
     title: "Game Development",
-    href: "/game-development",
+    href: "/tracks/Game-Development",
     description: "From pixels to playtime—turn your wildest ideas into addictive games!",
   },
   {
   title:"App Development ",
-  href: "/app-development",
+  href: "/tracks/App-Development",
   description: "Build apps, change lives—because the world needs your next big idea!",
   },
   {
     title: "Cyber Security ",
-    href: "/cyber-security",
+    href: "/tracks/cyber-security",
     description: "Hack the hackers (legally, of course) and keep the digital world one step safer!",
   },
  
@@ -77,7 +77,7 @@ export function NavigationMenuDemo() {
                 <NavigationMenuLink asChild>
                   <Link
                     className="text-sm flex h-full w-full select-none flex-col justify-center rounded-md bg-slate-300 dark:bg-neutral-800 p-6 "
-                    href="/Competitive-Programming"
+                    href="/tracks/Competitive-Programming"
                   >
                     Competitive-Programming
                     <div className="mb-2 mt-4 text-lg font-medium">

@@ -17,10 +17,10 @@
       { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
     ],
     "Tracks":[
-      {"href":"/Competitive-Programming" , "Title":"Competitive-Programming"},
-      {"href":"/Game Development" , "Title":"Game Development"},
-      {"href":"/App Development" , "Title":"App Development"},
-      {"href":"/Cyber Security" , "Title":"Cyber Security"}  
+      {"href":"/tracks/Competitive-Programming" , "Title":"Competitive-Programming"},
+      {"href":"/tracks/Game-Development" , "Title":"Game Development"},
+      {"href":"/tracks/App-Development" , "Title":"App Development"},
+      {"href":"/tracks/Cyber-Security" , "Title":"Cyber Security"}  
     ],
 
     "mobileView":[
