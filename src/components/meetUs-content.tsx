@@ -29,7 +29,7 @@ const MeetUsContent = () => {
           <button
             key={year}
             onClick={() => handleYearChange(year)}
-            className="px-4 py-2 border border-red-500 hover:bg-red-500 hover:scale-110 text-black dark:text-white duration-150   rounded"
+            className="px-4 py-2 border border-red-500 hover:bg-red-500 hover:scale-110 text-black dark:text-white duration-200   rounded"
           >
             {year}
           </button>
@@ -50,7 +50,7 @@ const MeetUsContent = () => {
                 className="group  relative overflow-hidden h-fit w-fit flex flex-col justify-end items-center rounded-xl"
               >
                 <Image
-                  className=" group-hover:scale-110 h-auto w-64 -z-0 select-none bg-white"
+                  className=" group-hover:scale-110 h-auto w-64 -z-0 select-none bg-white duration-200"
                   src={member.image}
                   alt={member.name}
                   width={500}
@@ -65,13 +65,13 @@ const MeetUsContent = () => {
                   </p>
                 </div>
 
-                <div className="group-hover:opacity-100  opacity-0 absolute bottom-0 h-full w-full bg-black bg-opacity-55 z-0   flex gap-4  flex-col justify-center items-center p-4   ">
+                <div className="group-hover:opacity-100  opacity-0 absolute bottom-0 h-full w-full bg-black bg-opacity-55 z-0   flex gap-4  flex-col justify-center items-center p-4  duration-200 ">
                   {member.github && (
                     <a
                       href={member.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-300"
+                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-200"
                     >
                       <FaGithub size={30} />
                     </a>
@@ -81,7 +81,7 @@ const MeetUsContent = () => {
                       href={member.facebook}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-300"
+                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
                     >
                       <FaFacebook size={30} />
                     </a>
@@ -89,7 +89,7 @@ const MeetUsContent = () => {
                   {member.email && (
                     <a
                       href={`mailto:${member.email}`}
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-300"
+                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-200"
                     >
                       <FaEnvelope size={30} />
                     </a>
@@ -99,7 +99,7 @@ const MeetUsContent = () => {
                       href={member.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-300"
+                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
                     >
                       <FaLinkedin size={30} />
                     </a>

@@ -1,18 +1,21 @@
-import React from "react";
+import Image from 'next/image'
+import React from 'react'
 
 const bgProjectPage = () => {
   return (
     <div className="select-none relative h-[75vh] w-full flex flex-col gap-5 justify-center items-center">
-      <div className="projects image brightness-50 w-full h-full absolute top-0 left-0  " />
-      <h1 className="z-0 text-4xl md:text-7xl text-white dark:text-white">
-        our projects
-      </h1>
-      <p className="z-0 text-white dark:text-white text-sm px-5 lg:text-xl text-center">
-        We are a team of passionate individuals who are dedicated to creating
-        innovative and effective solutions
-      </p>
-    </div>
-  );
-};
+    <Image
+      className="object-cover brightness-50 w-full h-full absolute top-0 left-0 "
+      src="/images/Projects.jpg"
+      alt="Image"
+      width={3000}
+      height={3000}
+    />
+    <h1 className="text-white text-center dark:text-white  text-8xl lg:m-4 z-10">
+      our projects
+    </h1>
+  </div>
+  )
+}
 
-export default bgProjectPage;
+export default bgProjectPage

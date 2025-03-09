@@ -17,9 +17,7 @@ import NLink from "@/Data/Links.json";
 // ui
 
 const Navbar = () => {
-  const LiStyle =
-    "cursor-pointer transition dark:text-white hover:translate-y-[-1px] duration-150";
-
+ 
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -42,7 +40,7 @@ const Navbar = () => {
     <div
       className={`${
         hasScrolled ? "bg-white dark:bg-black bg-opacity-90" : ""
-      } h-14 w-full py-2 px-5 z-20 fixed flex justify-between lg:justify-evenly items-center duration-200`}
+      } h-14 w-full py-2 px-5 z-20 fixed flex justify-between lg:justify-evenly items-center duration-200 `}
     >
       {/* Logo */}
       <Link href="/">
@@ -57,7 +55,8 @@ const Navbar = () => {
       <div className="hidden lg:flex gap-7 items-center select-none">
         {NLink.Nav.map((link, index) => (
           <Link
-            className={`${LiStyle} ${
+            className={`cursor-pointer transition dark:text-white hover:translate-y-[-1px] duration-200
+              ${
               hasScrolled
                 ? "text-black hover:text-gray-600"
                 : "text-white hover:text-gray-100"
@@ -85,7 +84,7 @@ const Navbar = () => {
 
       {/* Mobile Nav Menu   */}
       <div
-        className={`lg:hidden fixed top-0 left-0 w-full bg-white dark:bg-black h-screen flex items-center   justify-center z-30 select-none ${
+        className={`lg:hidden fixed top-0 left-0 w-full bg-white dark:bg-black h-screen flex items-center   justify-center z-30 select-none duration-200 ${
           isMobileMenuOpen
             ? "opacity-100 translate-x-0"
             : "opacity-0 translate-x-full"

@@ -54,7 +54,7 @@ export default function page() {
         <p>{book.p}</p>
         <div className="flex justify-center items-center gap-10">
           <a
-            className="p-3 border border-red-600 text-white hover:text-white hover:bg-red-600 rounded-xl duration-200 "
+            className="p-3 border border-red-600 text-neutral-900 dark:text-white hover:text-white hover:bg-red-600 rounded-xl duration-200 "
             target="_blank"
             href={book.a}
           >
@@ -62,7 +62,7 @@ export default function page() {
           </a>
           {book.Pdf ? (
             <a
-              className="p-3 border border-red-600 text-white hover:text-white hover:bg-red-600 rounded-xl duration-200 "
+              className="p-3 border border-red-600 text-neutral-900 dark:text-white hover:text-white hover:bg-red-600 rounded-xl duration-200 "
               target="_blank"
               href={book.Pdf}
             >
@@ -73,8 +73,8 @@ export default function page() {
           )}
 
           <button
-            className={`p-3 border border-red-600 text-white  rounded-xl duration-200
-              ${watchedSessions.includes(book.id) ? "bg-red-600" : " "}
+            className={`p-3 border border-red-600   rounded-xl duration-200
+              ${watchedSessions.includes(book.id) ? "bg-red-600 " : " text-neutral-900 dark:text-white "}
               `}
             onClick={() => toggleWatched(book.id.toString())}
           >

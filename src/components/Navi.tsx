@@ -61,17 +61,17 @@ export function NavigationMenuDemo() {
     };
   }, []);
   return (
-    <NavigationMenu className="duration-200">
+    <NavigationMenu  >
       <NavigationMenuList>
       <NavigationMenuItem>
           <NavigationMenuTrigger
-           className={`bg-transparent ${
-            hasScrolled ? "text-black dark:text-white  " : "text-white"
+           className={`bg-transparent duration-0 ${
+            hasScrolled ? "text-black dark:text-white  " : "text-white hover:text-white"
           }`}
           >
             Tracks
           </NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent className="duration-200">
             <ul className="grid gap-3 p-4 lg:w-[400px] 2xl:w-[500px] lg:grid-cols-[1fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
@@ -110,13 +110,13 @@ export function NavigationMenuDemo() {
 
         <NavigationMenuItem>
           <NavigationMenuTrigger
-            className={`bg-transparent ${
-              hasScrolled ? "text-black dark:text-white  " : "text-white"
+            className={`bg-transparent   duration-0 ${
+              hasScrolled ? "text-black dark:text-white  " : "text-white hover:text-white"
             }`}
           >
              Events & Competitions
           </NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent className="duration-200">
             <ul className="p-2 lg:w-[400px] 2xl:w-[500px]">
               {EventsLinks.map((component) => (
                 <Link

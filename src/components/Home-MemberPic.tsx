@@ -38,12 +38,12 @@ const HomeMemberPic = () => {
       </div>
 
       {/* right side */}
-      <Carousel className="w-full lg:w-2/4 max-w-96  md:max-w-2xl ">
+      <Carousel className="w-full lg:w-2/4 max-w-96  md:max-w-2xl bg-transparent ">
         <CarouselContent className="-ml-1">
           {MemberPic.members.map((Pictures, index) => (
             <CarouselItem
               key={index}
-              className="pl-1 md:basis-1/2 lg:basis-1/3  cursor-grab active:cursor-grabbing "
+              className="pl-1 md:basis-1/2 lg:basis-1/3  cursor-grab active:cursor-grabbing select-none duration-75 "
             >
               <div className=" p-1">
                 <Card className="border-white overflow-hidden">
@@ -62,9 +62,9 @@ const HomeMemberPic = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
-        <CarouselNext className="border-black text-black dark:text-white dark:border-white scale-0 lg:scale-100" />
-        <p className="w-full text-center text-base animate-bounce pt-4 text-white dark:text-white duration-1000">
+        <CarouselPrevious className="border-black text-black dark:text-white dark:border-white hidden 2xl:flex" />
+        <CarouselNext className="border-black text-black dark:text-white dark:border-white hidden 2xl:flex" />
+        <p className="w-full text-center text-base animate-bounce pt-4 text-black dark:text-white duration-1000">
           Swipe to see more pictures
         </p>
       </Carousel>
