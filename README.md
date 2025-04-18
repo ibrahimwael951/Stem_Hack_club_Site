@@ -1,6 +1,6 @@
  # **Stem Hack Club**
 if u see this file, u are a the new developer :> , let me tell you some things about the site , the site is made by using next.ts framework and tailwind CSS (easier for dev) 
-and yeah u can see all data on  the data folder from links to projects and Mentors and bla bla bla .... , okay i hope u enjoy with coding and and get new experiance and skills <3 
+and yeah u can see all data on  the data folder from links to projects and Mentors and bla bla bla .... , okay i hope u enjoy with coding and get new experiance and skills <3 
 
 ## ⚙ Tools And Dependencies
 - Shadcn Ui
