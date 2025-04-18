@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ # **Stem Hack Club**
+if u see this file, u are a the new developer :> , let me tell you some things about the site , the site is made by using next.ts framework and tailwind CSS (easier for dev) 
+and yeah u can see all data on  the data folder from links to projects and Mentors and bla bla bla .... , okay i hope u enjoy with coding and and get new experiance and skills <3 
 
-## Getting Started
+## ⚙ Tools And Dependencies
+- Shadcn Ui
+- Aos  Animate on scroll library
 
-First, run the development server:
+## 🚀 Features  
+- Basic front-end design  
+- Simple interactive elements  
+- Fully responsive layout
+- Simple and modren ui/ux 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📥 How to Download  
+**first check if u download node.js , then start to download**
+1. **Open your terminal or command prompt.**  
+2. **Run the following command to clone the repository:**  
+   ```sh
+   git clone https://github.com/ibrahimwael951/Stem_Hack_club_Site.git
+3. **open folder**
+      ```sh
+   cd ./Stem_Hack_club_Site/
+4. **download npm**
+     ```sh
+     npm install
+5. **run the app** 
+   ```sh 
+   npm run dev
+Enjoy Coding
+`ibrahimwael951`. Let me know if you need some Help :>
