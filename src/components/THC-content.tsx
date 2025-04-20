@@ -87,27 +87,10 @@ const THCContent = () => {
             </li>
           </ul>
         </div>
-        <div className="relative">
-          <span className="w-1 h-full bg-red-600 absolute -left-4  top-0 " />
-          <h2 className="mb-2">Prizes</h2>
-          <ul className="ml-7 text-neutral-700 dark:text-neutral-400 list-disc">
-            <li>
-              Top <span className="text-red-600">0-4 % </span>Competitors will
-              earn the gold medal
-            </li>
-            <li>
-              Top <span className="text-red-600">(0-4 % - 0.3%)</span>{" "}
-              Competitors will earn the silver medal
-            </li>
-            <li>
-              Top <span className="text-red-600">(0-4 % - 0.5%)</span>{" "}
-              Competitors will earn the bronze medal
-            </li>
-          </ul>
-        </div>
+        
       </div>
       <div>
-        <h1 className="w-full h-40 rounded-2xl flex justify-center items-center bg-red-600 ">
+        <h1 className="w-full h-40 rounded-2xl flex justify-center items-center bg-red-600  text-white">
           Will Be Available Soon
         </h1>
       </div>
