@@ -55,11 +55,11 @@ const Navbar = () => {
       <div className="hidden lg:flex gap-7 items-center select-none">
         {NLink.Nav.map((link, index) => (
           <Link
-            className={`cursor-pointer transition dark:text-white hover:translate-y-[-1px] duration-200
+            className={`cursor-pointer dark:text-white hover:translate-y-[-1px] duration-200    
               ${
               hasScrolled
-                ? "text-black hover:text-gray-600"
-                : "text-white hover:text-gray-100"
+                ? "text-black hover:text-red-500 dark:hover:text-red-500"
+                : "text-white hover:text-white"
             }`}
             href={link.href}
             key={index}

@@ -16,7 +16,7 @@ const HackthonsContent = () => {
     {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
   ];
   return (
-    <div className="p-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
+    <div className="px-5 lg:px-20 py-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
       <div className="">
         <h1 data-aos="fade-right" className="mb-4">What's a Hackathon</h1>
         <p data-aos="fade-right" className="ml-4">
