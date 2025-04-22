@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 export const metadata: Metadata = {
   title: "Stem Hack Club",
   description:
-    " Stem Hack Club is a community of students who are passionate about STEM and coding.",
+    " Stem Hack Club is a vibrant student-led community where young minds explore, learn, and build projects in STEM fields—especially coding, technology, and innovation",
 };
 
 export default function RootLayout({
