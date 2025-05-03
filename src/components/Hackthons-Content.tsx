@@ -5,6 +5,7 @@ import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const HackthonsContent = () => {
   // animation
@@ -12,8 +13,8 @@ const HackthonsContent = () => {
     Aos.init();
   }, []);
   const hackathons = [
-    { image:"/images/counterspell-cairo.png", title:"Counterspell-Giza"},
-    {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
+    { image:"/images/counterspell-cairo.png", title:"Counterspell-Giza" ,link:"https://counterspell.hackclub.com/giza"}
+    // {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
   ];
   return (
     <div className="px-5 lg:px-20 py-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
@@ -30,7 +31,8 @@ const HackthonsContent = () => {
       <h1>our last Hackathons</h1>
       <div className="flex flex-col md:flex-row justify-center items-center gap-20">
         {hackathons.map((component, index) => (
-          <div
+          <Link
+            href={component.link}
             data-aos="zoom-in"
             key={index}
             className=" p-10 h-52 w-80 bg-gray-300 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
@@ -46,7 +48,7 @@ const HackthonsContent = () => {
             <h1 className="text-lg text-gray-800 dark:text-white">
               {component.title}
             </h1>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

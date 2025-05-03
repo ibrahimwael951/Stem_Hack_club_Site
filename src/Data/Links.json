@@ -3,33 +3,40 @@
     { "href": "/", "Title": "Home" },
     { "href": "/Why-Us", "Title": "Why Us" },
     { "href": "/Meet-Us", "Title": "Meet Us" },
-    { "href": "/Projects", "Title": "Projects" }
+    { "href": "/Projects", "Title": "Projects" },
+    { "href": "/donation", "Title": "Donation" }
   ],
-  "Footer":{
-    "stem hack club":[
+  "Footer": {
+    "stem hack club": [
       { "href": "/", "Title": "Home" },
       { "href": "/Meet-Us", "Title": "Meet Us" },
       { "href": "/Why-Us", "Title": "Why Us" },
       { "href": "/Projects", "Title": "Projects" }
     ],
-    "challenges":[
+    "challenges": [
       { "href": "/Hackathons", "Title": "Hackathons" },
       { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
     ],
-    "Tracks":[
-      {"href":"/tracks/Competitive-Programming" , "Title":"Competitive-Programming"},
-      {"href":"/tracks/Game-Development" , "Title":"Game Development"},
-      {"href":"/tracks/App-Development" , "Title":"App Development"},
-      {"href":"/tracks/Cyber-Security" , "Title":"Cyber Security"}  
+    "Tracks": [
+      {
+        "href": "/tracks/Competitive-Programming",
+        "Title": "Competitive-Programming"
+      },
+      { "href": "/tracks/Game-Development", "Title": "Game Development" },
+      { "href": "/tracks/App-Development", "Title": "App Development" },
+      { "href": "/tracks/Cyber-Security", "Title": "Cyber Security" }
     ],
 
-    "mobileView":[
+    "mobileView": [
       { "href": "/", "Title": "Home" },
       { "href": "/Meet-Us", "Title": "Meet Us" },
       { "href": "/Why-Us", "Title": "Why Us" },
       { "href": "/Projects", "Title": "Projects" },
       { "href": "/Hackathons", "Title": "Hackathons" },
-      { "href": "/Competitive-Programming", "Title": "Competitive Programming" },
+      {
+        "href": "/Competitive-Programming",
+        "Title": "Competitive Programming"
+      },
       { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
     ]
   }

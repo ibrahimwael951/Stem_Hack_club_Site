@@ -77,11 +77,11 @@ export function NavigationMenuDemo() {
             Tracks
           </NavigationMenuTrigger>
           <NavigationMenuContent className="duration-200">
-            <ul className="grid gap-3 p-4 lg:w-[400px] 2xl:w-[500px] lg:grid-cols-[1fr_1fr]">
+            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
-                    className="text-sm flex h-full w-full select-none flex-col justify-center rounded-md bg-slate-300 dark:bg-neutral-800 p-6 "
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/tracks/Competitive-Programming"
                   >
                     Competitive-Programming
