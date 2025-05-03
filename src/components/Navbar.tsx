@@ -69,6 +69,17 @@ const Navbar = () => {
         ))}
 
         <NavigationMenuDemo />
+        <Link
+            className={`cursor-pointer dark:text-white hover:translate-y-[-1px] duration-200    
+              ${
+              hasScrolled
+                ? "text-black hover:text-red-500 dark:hover:text-red-500"
+                : "text-white hover:text-white"
+            }`}
+            href="/donation"
+          >
+            Donation
+          </Link>
         <ModeToggle />
       </div>
 
