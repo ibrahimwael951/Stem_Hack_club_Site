@@ -36,13 +36,20 @@ export const metadata: Metadata = {
   },
 };
 //component
-import BgHomePage from "@/components/bgHomePage";
+import Background from "@/components/ui/Background";
 import HomeContent from "@/components/Home-Content";
+import HomeMemberPic from "@/components/Home-MemberPic";
+import Homehackthon from "@/components/Home-Hackathons";
+
 export default function Home() {
   return (
-    <div className="text-white">
-      <BgHomePage />
-      <HomeContent />
-    </div>
+    <section className="text-white">
+      <Background src="/images/Home_page.jpg" title="Stem Hack Club Egypt" />
+      <section className="overflow-hidden select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly">
+        <HomeContent />
+        <HomeMemberPic />
+        <Homehackthon />
+      </section>
+    </section>
   );
 }

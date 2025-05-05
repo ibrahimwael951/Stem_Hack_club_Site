@@ -1,5 +1,5 @@
 "use client";
-import { SetStateAction, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // استيراد أيقونات من react-icons

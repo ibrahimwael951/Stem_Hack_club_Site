@@ -1,43 +1,48 @@
 {
   "Nav": [
-    { "href": "/", "Title": "Home" },
-    { "href": "/Why-Us", "Title": "Why Us" },
-    { "href": "/Meet-Us", "Title": "Meet Us" },
-    { "href": "/Projects", "Title": "Projects" },
-    { "href": "/donation", "Title": "Donation" }
+    { "href": "/", "title": "Home" },
+    { "href": "/Why-Us", "title": "Why Us" },
+    { "href": "/Meet-Us", "title": "Meet Us" },
+    { "href": "/Projects", "title": "Projects" },
+    { "href": "/donation", "title": "Donation" },
+    {
+      "href": "/Competitive-Programming",
+      "title": "Competitive Programming"
+    },
+    { "href": "/Teen-hack-competition", "title": "Teen hack competition" }
   ],
-  "Footer": {
-    "stem hack club": [
-      { "href": "/", "Title": "Home" },
-      { "href": "/Meet-Us", "Title": "Meet Us" },
-      { "href": "/Why-Us", "Title": "Why Us" },
-      { "href": "/Projects", "Title": "Projects" }
-    ],
-    "challenges": [
-      { "href": "/Hackathons", "Title": "Hackathons" },
-      { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
-    ],
-    "Tracks": [
-      {
-        "href": "/tracks/Competitive-Programming",
-        "Title": "Competitive-Programming"
-      },
-      { "href": "/tracks/Game-Development", "Title": "Game Development" },
-      { "href": "/tracks/App-Development", "Title": "App Development" },
-      { "href": "/tracks/Cyber-Security", "Title": "Cyber Security" }
-    ],
-
-    "mobileView": [
-      { "href": "/", "Title": "Home" },
-      { "href": "/Meet-Us", "Title": "Meet Us" },
-      { "href": "/Why-Us", "Title": "Why Us" },
-      { "href": "/Projects", "Title": "Projects" },
-      { "href": "/Hackathons", "Title": "Hackathons" },
-      {
-        "href": "/Competitive-Programming",
-        "Title": "Competitive Programming"
-      },
-      { "href": "/Teen-hack-competition", "Title": "Teen hack competition" }
-    ]
-  }
+  "challenges": [
+    {
+      "href": "/Hackathons",
+      "title": "Hackathons",
+      "description": "Hackathons are a great way to learn new skills, meet new people, and have fun whil"
+    },
+    {
+      "href": "/Teen-hack-competition",
+      "title": "Teen hack competition",
+      "description": "for teen hackers to compete with each other and learn from each other."
+    }
+  ],
+  "Tracks": [
+    {
+      "href": "/tracks/Competitive-Programming",
+      "title": "Competitive Programming",
+      "Description": "Code fast, debug faster—where brainpower meets the ultimate algorithmic showdown!"
+    },
+    {
+      "title": "Game Development",
+      "href": "/tracks/Game-Development",
+      "description": "From pixels to playtime—turn your wildest ideas into addictive games!"
+    },
+    {
+      "title": "App Development ",
+      "href": "/tracks/App-Development",
+      "description": "Build apps, change lives—because the world needs your next big idea!"
+    },
+    {
+      "title": "Cyber Security ",
+      "href": "/tracks/cyber-security",
+      "description": "Hack the hackers (legally, of course) and keep the digital world one step safer!"
+    }
+  ]
 }

@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 //components
 import Card from "@/components/Projects-content";
-import BgProjectPage from "@/components/bgProjectPage";
+// import BgProjectPage from "@/components/bgProjectPage";
+import Background from "@/components/ui/Background";
 
 export const metadata: Metadata = {
   title: "Projects | Stem Hack Club",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <section className="h-fit bg-white dark:bg-black ">
-      <BgProjectPage />
+      <Background src="/images/Projects.jpg" title="Our Projects" />
       <Card />
     </section>
   );

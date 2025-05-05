@@ -37,7 +37,7 @@ const QA = () => {
   return (
     <section
       id="Home_Content"
-      className="overflow-hidden select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly"
+      className="overflow-hidden select-text cursor-default  h-fit flex flex-col gap-20 justify-evenly"
     >
       {/* our club goals */}
       <div className=" ">
@@ -62,7 +62,7 @@ const QA = () => {
       {/* questions */}
       <div data-aos="fade-right">
         <h1 className="mb-3">What's a Hacker?</h1>
-        <p>
+        <p className="pl-5">
           A hacker is not always someone who trespasses on banks or plunders a
           friend's V-Bucks. Hackers are individuals who identify problems that
           need to be solved and devise the most practical-efficient solutions.
@@ -138,8 +138,7 @@ const QA = () => {
       </div>
 
       {/* Components */}
-      <MemberPic />
-      <Homehackthon />
+      
     </section>
   );
 };

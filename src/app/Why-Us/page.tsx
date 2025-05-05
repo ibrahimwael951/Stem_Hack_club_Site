@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 //component
-import BgWhyUs from "@/components/bgWhyUs";
+import Background2 from "@/components/ui/Background2";
 import Content from "@/components/Why-Us-content";
 
 export const metadata: Metadata = {
@@ -41,7 +41,15 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <section className="h-fit flex flex-col select-text cursor-default    ">
-      <BgWhyUs />
+      <Background2
+        color1="[#cf2de4]"
+        color2="[#e42d42]"
+        color3="[#ce293c]"
+        first="We're"
+        second="at our best"
+        third="when we're"
+        fourth="making"
+      />
       <Content />
     </section>
   );
