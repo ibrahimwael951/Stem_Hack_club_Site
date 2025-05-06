@@ -42,9 +42,9 @@ export default function page() {
   return (
     <section className="h-fit flex flex-col select-text cursor-default    ">
       <Background2
-        color1="[#cf2de4]"
-        color2="[#e42d42]"
-        color3="[#ce293c]"
+        color1="from-[#cf2de4]"
+        color2="via-[#e42d42]"
+        color3="to-[#ce293c]"
         first="We're"
         second="at our best"
         third="when we're"

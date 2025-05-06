@@ -19,8 +19,11 @@ export default function page() {
       title: "Counterspell-Giza",
       link: "https://counterspell.hackclub.com/giza",
     },
-    { image: "/images/scrapyard.png", title: "Counterspell-Giza", link: "" },
-
+    {
+      image: "/images/scrapyard.png",
+      title: "Scrapyard",
+      link: "https://scrapyard.hackclub.com/",
+    },
     // {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
   ];
   return (

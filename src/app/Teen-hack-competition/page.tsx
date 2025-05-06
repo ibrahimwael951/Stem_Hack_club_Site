@@ -40,9 +40,9 @@ export default function Page() {
   return (
     <>
       <Background2
-        color1="cyan-500"
-        color2="[#e42d42]"
-        color3="[#ce293c]"
+        color1="from-cyan-500"
+        color2="via-[#e42d42]"
+        color3="to-[#ce293c]"
         first="Teen"
         second="Hack club"
         third="Competitive"

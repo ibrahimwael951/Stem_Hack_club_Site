@@ -1,26 +1,20 @@
 import React from "react";
 import Image from "next/image";
+import Background2 from "@/components/ui/Background2";
 
 export default function page() {
   const SpanTitle = "ml-0 text-7xl block text-white font-bold select-none";
   return (
     <section>
-      <div className=" h-[75vh] overflow-hidden  w-full  flex items-center justify-center bg-gradient-to-r from-[#222A68]   via-[#574AE2] to-[#574AE2] dark:bg-gradient-to-l">
-        <p className="   w-full h-full flex flex-col gap-2 justify-center items-center ">
-          <span className={`lg:ml-[-40rem] text-center ${SpanTitle}`}>
-            Help
-          </span>
-          <span className={`lg:ml-[-10rem] text-center ${SpanTitle}`}>
-            Empower the
-          </span>
-          <span className={`lg:ml-[10rem]  text-center ${SpanTitle}`}>
-            Next Generation
-          </span>
-          <span className={`lg:ml-[40rem]  text-center ${SpanTitle}`}>
-            of Innovators.
-          </span>
-        </p>
-      </div>
+      <Background2 
+        color1="from-[#222A68]"
+        color2="via-[#574AE2]"
+        color3="to-[#574AE2]"
+        first="Help"
+        second="Empower the"
+        third="Next Generation"
+        fourth="of Innovators."
+      />
       <section className="px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly">
         <div>
           <h1 className="mb-2">Donation Stem Hack Club</h1>
