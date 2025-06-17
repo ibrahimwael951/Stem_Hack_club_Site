@@ -1,13 +1,10 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // استيراد أيقونات من react-icons
 // data
 import BoardData from "../Data/ourBoard.json";
-
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const MeetUsContent = () => {
   const [selectedYear, setSelectedYear] = useState("2025");
@@ -16,10 +13,6 @@ const MeetUsContent = () => {
     setSelectedYear(year);
   };
 
-  // for animations
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div className="flex flex-col gap-10 justify-center items-center py-20 px-20">
       <h1>Meet Us</h1>

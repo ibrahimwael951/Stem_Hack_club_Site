@@ -1,18 +1,10 @@
-"use client";
 import Image from "next/image";
 
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import Link from "next/link";
 
 //components
 import Background from "@/components/ui/Background";
 export default function page() {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   const hackathons = [
     {
       image: "/images/counterspell-cairo.png",

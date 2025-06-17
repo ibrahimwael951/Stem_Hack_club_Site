@@ -14,7 +14,6 @@ import Background2 from "@/components/ui/Background2";
 
 export default function Page() {
   const params = useParams();
-  const category = params.category as string;
 
   // Find the track category
   const Track_Category = Data.Tracks.find((b) => b.title === params.category);
@@ -68,7 +67,8 @@ export default function Page() {
               <h1 className="text-center md:text-start">
                 {Track_Category.title}
               </h1>
-              <div className="pl-6"
+              <div
+                className="pl-6"
                 dangerouslySetInnerHTML={{ __html: Track_Category.description }}
               />
             </div>
@@ -123,15 +123,15 @@ export default function Page() {
       ) : (
         // if there is no description
         <section>
-            <Background2
-              color1="from-red-500"
-              color2="via-red-500"
-              color3="to-yellow-600"
-              first="We are"
-              second="Still work"
-              third="on this"
-              fourth=" category."
-            />
+          <Background2
+            color1="from-red-500"
+            color2="via-red-500"
+            color3="to-yellow-600"
+            first="We are"
+            second="Still work"
+            third="on this"
+            fourth=" category."
+          />
           <div className=" w-full flex px-5 flex-col md:flex-row justify-center items-center">
             <div className="flex flex-col justify-center items-center lg:items-start">
               <h1 className="7xl text-center lg:text-start  ">

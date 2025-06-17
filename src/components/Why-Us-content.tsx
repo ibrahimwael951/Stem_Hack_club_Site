@@ -1,15 +1,4 @@
-"use client";
-
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 const WhyUsContent = () => {
-  // animation
-  useEffect(() => {
-    Aos.init();
-  }, []);
   const DivStyle = "my-4";
 
   return (

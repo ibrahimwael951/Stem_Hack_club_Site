@@ -3,7 +3,7 @@ import Image from "next/image";
 import Background2 from "@/components/ui/Background2";
 
 export default function page() {
-  const SpanTitle = "ml-0 text-7xl block text-white font-bold select-none";
+  // const SpanTitle = "ml-0 text-7xl block text-white font-bold select-none";
   return (
     <section>
       <Background2 
@@ -17,7 +17,7 @@ export default function page() {
       />
       <section className="px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly">
         <div>
-          <h1 className="mb-2">Donation Stem Hack Club</h1>
+          <h1 className="mb-2"> Hack Club Stem Egypt</h1>
 
           <p className="ml-4 ">
             The STEM Hack Club is a youth-led initiative bringing together

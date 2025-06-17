@@ -1,19 +1,6 @@
-"use client"
 import Image from "next/image";
 import Link from "next/link";
-
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 const Homehackthon = () => {
-  
-  // animation
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   return (
     <section className="flex flex-col lg:flex-row-reverse lg:justify-between gap-10 items-center w-full  ">
       <div

@@ -1,25 +1,10 @@
-"use client";
-import React, { useEffect } from "react";
-
+import React from "react";
 // react icons
 import { FaHandshake } from "react-icons/fa";
 import { IoSpeedometerOutline } from "react-icons/io5";
 import { BiBookBookmark } from "react-icons/bi";
 
-// components
-import MemberPic from "@/components/Home-MemberPic";
-import Homehackthon from "@/components/Home-Hackathons";
-
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 const QA = () => {
-  // animation
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   const GoalsList = [
     {
       Icon: IoSpeedometerOutline,
@@ -138,7 +123,6 @@ const QA = () => {
       </div>
 
       {/* Components */}
-      
     </section>
   );
 };

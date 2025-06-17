@@ -4,16 +4,11 @@ import { useParams } from "next/navigation";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 //json file
 import Lesson from "@/Data/Tracks.json";
 
 export default function page() {
   const params = useParams();
-  const id = params.id as string;
 
   const book = Lesson.TrackLessons.find((b) => b.id.toString() === params.id);
 
@@ -37,11 +32,6 @@ export default function page() {
     setWatchedSessions(updatedSessions);
     localStorage.setItem("watchedSessions", JSON.stringify(updatedSessions));
   };
-
-  // animation
-  useEffect(() => {
-    Aos.init();
-  }, []);
 
   return (
     <section className=" px-5 lg:px-20 py-32  flex flex-col gap-10">
@@ -74,7 +64,11 @@ export default function page() {
 
           <button
             className={`p-3 border border-red-600   rounded-xl duration-200
-              ${watchedSessions.includes(book.id) ? "bg-red-600 " : " text-neutral-900 dark:text-white "}
+              ${
+                watchedSessions.includes(book.id)
+                  ? "bg-red-600 "
+                  : " text-neutral-900 dark:text-white "
+              }
               `}
             onClick={() => toggleWatched(book.id.toString())}
           >
@@ -86,7 +80,9 @@ export default function page() {
       <div className="flex flex-col justify-center items-center gap-32 ">
         {book.video ? (
           <div>
-             {book.video2 && (<h1 className="w-full text-center mb-5 ">Part One</h1>)}
+            {book.video2 && (
+              <h1 className="w-full text-center mb-5 ">Part One</h1>
+            )}
 
             <iframe
               className="w-full aspect-video select-none border-2 border-red-600 rounded-xl"

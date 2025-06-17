@@ -1,18 +1,7 @@
-"use client";
 import Image from "next/image";
 import projectsData from "@/Data/Projects.json";
 
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 const bgProjects = () => {
-  // animation
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   return (
     <div className=" py-20 px-10 lg:px-20 h-fit w-full flex flex-wrap justify-center items-center gap-x-5 gap-y-10">
       {projectsData.map((project, index) => (
@@ -23,9 +12,7 @@ const bgProjects = () => {
           className="cursor-pointer"
           data-aos="zoom-in"
         >
-          <div
-            className=" relative group overflow-hidden hover:-translate-y-2 flex flex-col justify-evenly items-center  h-[250px]   w-80 sm:w-[250px] rounded-2xl border-2 dark:border-neutral-800 border-gray-200 duration-200"
-          >
+          <div className=" relative group overflow-hidden hover:-translate-y-2 flex flex-col justify-evenly items-center  h-[250px]   w-80 sm:w-[250px] rounded-2xl border-2 dark:border-neutral-800 border-gray-200 duration-200">
             <Image
               src={`${project.image}`}
               alt={project.Title}

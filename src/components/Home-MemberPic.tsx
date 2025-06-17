@@ -1,5 +1,4 @@
-"use client"
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import MemberPic from "@/Data/Images.json";
@@ -11,16 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-// animation for scroll
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 const HomeMemberPic = () => {
-  // animation
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   return (
     <div className="w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-text ">
       {/* left side */}
