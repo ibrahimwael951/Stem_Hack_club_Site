@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+import Button from "../ui/Button";
 const Homehackthon = () => {
   return (
     <section className="flex flex-col lg:flex-row-reverse lg:justify-between gap-10 items-center w-full  ">
@@ -33,12 +33,7 @@ const Homehackthon = () => {
           to encourage innovation and creativity, and can be a great way to
           learn new skills and network with others.
         </motion.p>
-        <Link
-          href="/Hackathons"
-          className="bg-red-500 hover:bg-red-700 hover:text-white text-white font-bold py-2 px-4 rounded"
-        >
-          Learn More
-        </Link>
+        <Button href="/Hackathons" title="Learn more"/>
       </div>
 
       <motion.div

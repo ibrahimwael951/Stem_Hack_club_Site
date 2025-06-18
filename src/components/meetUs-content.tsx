@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // استيراد أيقونات من react-icons
+import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa";
 // data
 import BoardData from "../Data/ourBoard.json";
 
@@ -53,10 +53,14 @@ const MeetUsContent = () => {
               scale: 1.2,
               fontSize: "20px",
             }}
+            whileTap={{
+              scale:0.8,
+              transition:{duration:0.1}
+            }}
             transition={{ duration: 0.2 }}
             key={year}
             onClick={() => handleYearChange(year)}
-            className="px-4 py-2 border border-red-500   hover:text-white hover:bg-red-600    rounded-2xl"
+            className="p-4 border border-red-500   hover:text-white hover:bg-red-600    rounded-2xl"
           >
             {year}
           </motion.button>

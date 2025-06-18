@@ -8,8 +8,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 const HomeMemberPic = () => {
@@ -85,8 +83,6 @@ const HomeMemberPic = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="border-black text-black dark:text-white dark:border-white hidden 2xl:flex" />
-          <CarouselNext className="border-black text-black dark:text-white dark:border-white hidden 2xl:flex" />
           <p className="w-full text-center text-base animate-bounce pt-4 text-black dark:text-white duration-1000">
             Swipe to see more pictures
           </p>

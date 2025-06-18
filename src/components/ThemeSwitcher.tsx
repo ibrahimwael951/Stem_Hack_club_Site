@@ -1,9 +1,8 @@
 "use client";
 
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { Button } from "@/components/ui/Button";
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
@@ -13,25 +12,39 @@ export function ModeToggle() {
     const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
   };
+  const [hasScrolled, setHasScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = 0;
+      if (window.scrollY > offset) {
+        setHasScrolled(true);
+      } else {
+        setHasScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <Button
+    <button
+      title="Toggle theme"
       onClick={handleThemeChange}
-      variant="outline"
-      size="icon"
-      className="relative flex items-center justify-center rounded-lg border dark:border-white border-black"
+      className={`relative flex items-center justify-center rounded-lg ${
+        hasScrolled ? "text-black dark:text-white" : "text-white"
+      }  `}
     >
-      <Sun
-        className={`h-[1.2rem] w-[1.2rem] transition-all duration-300 ${
-          theme === "dark" ? "hidden" : "block"
-        }`}
-      />
-      <Moon
-        className={`absolute h-[1.2rem] w-[1.2rem] transition-all duration-300   ${
-          theme === "light" ? "hidden" : "block"
-        }`}
-      />
-      <span className="sr-only">Toggle theme</span>
-    </Button>
+      {theme == "dark" ? (
+        <Sun
+          className={`h-[1.2rem] w-[1.2rem] transition-all duration-300  `}
+        />
+      ) : (
+        <Moon
+          className={`h-[1.2rem] w-[1.2rem] transition-all duration-300   `}
+        />
+      )}
+    </button>
   );
 }

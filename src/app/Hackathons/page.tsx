@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 import Link from "next/link";
@@ -25,39 +27,100 @@ export default function page() {
         title="Hack Club STEM Egypt Hackathon"
       />
       <section className="px-5 lg:px-20 py-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
-        <div className="">
-          <h1 data-aos="fade-right" className="mb-4">
+        <div className="w-full overflow-x-hidden">
+          <motion.h1
+            viewport={{
+              once: true,
+              amount: 0.5,
+            }}
+            initial={{
+              opacity: 0,
+              x: -100,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            transition={{ duration: 0.3 }}
+            className="mb-4"
+          >
             What's a Hackathon
-          </h1>
-          <p data-aos="fade-right" className="ml-4">
+          </motion.h1>
+          <motion.p
+            viewport={{
+              once: true,
+              amount: 0.5,
+            }}
+            initial={{
+              opacity: 0,
+              x: 100,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            transition={{ duration: 0.3 }}
+            className="ml-4"
+          >
             A hackathon is a space that helps give makers everything they need
             to start building–mentors, collaborators, inspiration, and a goal to
             work towards. Hackers will leave a hackathon with a project of their
             own, ready and excited to keep hacking once they get home.
-          </p>
+          </motion.p>
         </div>
 
-        <h1>our last Hackathons</h1>
+        <motion.h1
+          viewport={{
+            once: true,
+            amount: 0.5,
+          }}
+          initial={{
+            opacity: 0,
+            y: 60,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{ duration: 0.3 }}
+        >
+          our last Hackathons
+        </motion.h1>
         <div className="flex flex-col md:flex-row justify-center items-center gap-20">
           {hackathons.map((component, index) => (
-            <Link
-              href={component.link}
-              data-aos="zoom-in"
-              key={index}
-              className=" p-10 h-72 w-80 bg-gray-300 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
+            <motion.div
+              viewport={{
+                once: true,
+                amount: 0.5,
+              }}
+              initial={{
+                opacity: 0,
+                y: 60,
+              }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+              }}
+              transition={{ duration: 0.3 }}
             >
-              <Image
-                src={component.image}
-                width={500}
-                height={500}
-                alt="pic"
-                className=""
-              />
+              <Link
+                href={component.link}
+                key={index}
+                className=" p-10 h-72 w-80 bg-gray-300 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
+              >
+                <Image
+                  src={component.image}
+                  width={500}
+                  height={500}
+                  alt="pic"
+                  className=""
+                />
 
-              <h1 className="text-lg text-gray-800 dark:text-white">
-                {component.title}
-              </h1>
-            </Link>
+                <h1 className="text-lg text-gray-800 dark:text-white">
+                  {component.title}
+                </h1>
+              </Link>
+            </motion.div>
           ))}
         </div>
       </section>

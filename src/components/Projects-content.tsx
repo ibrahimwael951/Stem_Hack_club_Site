@@ -2,7 +2,6 @@
 import Image from "next/image";
 import projectsData from "@/Data/Projects.json";
 import { motion } from "framer-motion";
-import { X } from "lucide-react";
 
 const bgProjects = () => {
   return (
