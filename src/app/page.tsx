@@ -37,9 +37,9 @@ export const metadata: Metadata = {
 };
 //component
 import Background from "@/components/ui/Background";
-import HomeContent from "@/components/Home-Content";
-import HomeMemberPic from "@/components/Home-MemberPic";
-import Homehackthon from "@/components/Home-Hackathons";
+import HomeContent from "@/components/Home/Content";
+import HomeMemberPic from "@/components/Home/MemberPic";
+import Homehackthon from "@/components/Home/Hackathons";
 
 export default function Home() {
   return (

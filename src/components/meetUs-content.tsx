@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // استيراد أيقونات من react-icons
 // data
@@ -15,17 +16,50 @@ const MeetUsContent = () => {
 
   return (
     <div className="flex flex-col gap-10 justify-center items-center py-20 px-20">
-      <h1>Meet Us</h1>
+      <motion.h1
+        className="text-5xl"
+        viewport={{
+          once: true,
+          amount: 0.5,
+        }}
+        initial={{
+          y: 50,
+          opacity: 0,
+        }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{ duration: 0.5 }}
+      >
+        Meet Us
+      </motion.h1>
 
       <div className="flex gap-4 mb-4">
         {["2025", "2024", "2023", "2022"].map((year) => (
-          <button
+          <motion.button
+            viewport={{
+              once: true,
+            }}
+            initial={{
+              scale: 0,
+              opacity: 0,
+            }}
+            whileInView={{
+              scale: 1,
+              opacity: 1,
+            }}
+            whileHover={{
+              scale: 1.2,
+              fontSize: "20px",
+            }}
+            transition={{ duration: 0.2 }}
             key={year}
             onClick={() => handleYearChange(year)}
-            className="px-4 py-2 border border-red-500 hover:bg-red-500 hover:scale-110 text-black dark:text-white duration-200   rounded"
+            className="px-4 py-2 border border-red-500   hover:text-white hover:bg-red-600    rounded-2xl"
           >
             {year}
-          </button>
+          </motion.button>
         ))}
       </div>
 
@@ -37,13 +71,25 @@ const MeetUsContent = () => {
           (member, index) =>
             (selectedYear === null ||
               String(member.year) === String(selectedYear)) && (
-              <div
-                data-aos="zoom-in"
+              <motion.div
+                viewport={{
+                  once: true,
+                }}
+                initial={{
+                  y: 50,
+                  opacity: 0,
+                }}
+                whileInView={{
+                  y: 0,
+                  opacity: 1,
+                }}
+              
+                transition={{ duration: 0.4 ,type:"spring",stiffness:100 }}
                 key={index}
                 className="group  relative overflow-hidden h-fit w-fit flex flex-col justify-end items-center rounded-xl"
               >
                 <Image
-                  className=" group-hover:scale-110 h-auto w-64 -z-0 select-none bg-white duration-200"
+                  className=" group-hover:scale-110 h-auto md:w-64 -z-0 select-none bg-white duration-200"
                   src={member.image}
                   alt={member.name}
                   width={500}
@@ -98,7 +144,7 @@ const MeetUsContent = () => {
                     </a>
                   )}
                 </div>
-              </div>
+              </motion.div>
             )
         )}
       </div>
