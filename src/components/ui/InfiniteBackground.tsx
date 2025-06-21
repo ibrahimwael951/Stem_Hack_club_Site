@@ -43,7 +43,7 @@ const InfiniteBackground = () => {
           {[...imageUrls, ...imageUrls].map((item, i) => (
             <SwiperSlide
               key={i}
-              className="    w-[400px] h-screen"
+              className="!w-[400px] h-screen"
             >
               <Image
                 alt={`Gallery image ${i % imageUrls.length}`}
