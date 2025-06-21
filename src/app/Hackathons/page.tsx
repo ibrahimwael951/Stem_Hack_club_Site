@@ -24,7 +24,8 @@ export default function page() {
     <section className="w-full">
       <Background
         src="/images/Hackthons2.png"
-        title="Hack Club STEM Egypt Hackathon"
+        title="HCSE Hackathon"
+        desc="great way to learn and have fun "
       />
       <section className="px-5 lg:px-20 py-10 flex flex-col  gap-14 items-center h-fit md:h-screen">
         <div className="w-full overflow-x-hidden">
@@ -106,7 +107,7 @@ export default function page() {
               <Link
                 href={component.link}
                 key={index}
-                className=" p-10 h-72 w-80 bg-gray-300 dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
+                className=" p-10 h-72 w-80 bg-white shadow-[0_12px_12px_6px_rgba(23,23,23,0.2)] dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
               >
                 <Image
                   src={component.image}

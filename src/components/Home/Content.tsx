@@ -131,50 +131,50 @@ const QA = () => {
           className="pl-5"
         >
           We have an official affiliation with the student organization
-          <a href="https://hackclub.com" id="hackclub" target="_blank">
+          <a className="mx-1" href="https://hackclub.com" id="hackclub" target="_blank">
             Hack Club
           </a>
           , which brings together like-minded makers, coders, and hackers on the
-          <a href="https://hackclub.com/slack/" target="_blank">
+          <a className="mx-1" href="https://hackclub.com/slack/" target="_blank">
             Slack
           </a>
           platform. Numerous unique chances are provided by Hack Club, including
-          <a href="https://hackclub.com/amas/" target="_blank">
+          <a className="mx-1" href="https://hackclub.com/amas/" target="_blank">
             AMAs
           </a>
           with well-known figures in the tech space, including
-          <a
+          <a className="mx-1"
             href="https://www.forbes.com/profile/elon-musk/?sh=eddbb347999b"
             target="_blank"
           >
             Elon Musk
           </a>
           ,
-          <a
+          <a className="mx-1"
             href="https://www.forbes.com/profile/gwynne-shotwell/"
             target="_blank"
           >
             Gwen Shotwell
           </a>
           ,
-          <a
+          <a className="mx-1"
             href="https://www.forbes.com/profile/patrick-collison/?sh=42ce855f2727"
             target="_blank"
           >
             Patrick Collison
           </a>
           , and
-          <a href="https://www.youtube.com/watch?v=icyTUMjlvMg" target="_blank">
+          <a className="mx-1" href="https://www.youtube.com/watch?v=icyTUMjlvMg" target="_blank">
             Tommy Devoss
           </a>
           . Additionally, Hack Club hosts international coding competitions
-          <i>(in-person and online)</i>
+          <i> ( in-person and online ) </i>
           that are a fantastic opportunity for students to bond and learn what
           it's like to hack in a group setting.
         </motion.p>
       </div>
 
-      {/* Components */}
+     
     </section>
   );
 };

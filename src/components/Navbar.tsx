@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 //Logo
 import HackCLubLogo from "../../public/flag-hc-top.svg";
@@ -26,6 +27,8 @@ import {
 const Navbar = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -68,14 +71,18 @@ const Navbar = () => {
 
       {/* Desktop/Tablet Nav List */}
       <div className="hidden lg:flex gap-7 items-center select-none">
-        {NLink.Nav.slice(0, 5).map((link, index) => (
+        {NLink.Nav.slice(0, 4).map((link, index) => (
           <Link
             className={`cursor-pointer dark:text-white hover:translate-y-[-1px] duration-200    
-              ${
-                hasScrolled
-                  ? "text-black hover:text-red-500 dark:hover:text-red-500"
-                  : "text-white hover:text-white"
-              }`}
+
+            ${
+              hasScrolled
+                ? pathname === link.href
+                  ? "text-red-600 dark:text-red-600   font-semibold"
+                  : "text-black hover:text-red-500 dark:hover:text-red-500"
+                : "text-white hover:text-white"
+            }
+            `}
             href={link.href}
             key={index}
           >
@@ -161,6 +168,20 @@ const Navbar = () => {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+        <Link
+          title="Donation"
+          href="/donation"
+          className={`
+            p-3 border rounded-2xl active:scale-90 hover:bg-transparent duration-200 -ml-5 -mr-3
+            ${
+              hasScrolled ?
+                  "text-white bg-red-600 hover:text-red-600 hover:border-red-600"
+                : "text-red-600 bg-white  hover:text-white  border-white"
+            }
+            `}
+        >
+          Donation
+        </Link>
         <ModeToggle />
       </div>
 
