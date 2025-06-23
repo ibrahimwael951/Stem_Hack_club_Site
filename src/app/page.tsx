@@ -44,7 +44,7 @@ import Homehackthon from "@/components/Home/Hackathons";
 export default function Home() {
   return (
     <section className="text-white">
-      <Background src="/images/Home_page.jpg" title=" STEM Egypt Hack club" desc="HCSE of Egypt" />
+      <Background src="/images/Home_page.jpg" title="  Hack club Of STEM Egypt" desc="HCSE" />
       <section className="overflow-hidden select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly">
         <HomeContent />
         <HomeMemberPic />

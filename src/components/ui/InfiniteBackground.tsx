@@ -6,10 +6,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 
 const imageUrls = [
-  "/KEP_1777.JPG",
-  "/Oragnizers T-T.png",
   "/KEP_1812.JPG",
   "/Opening Ceremony 1.png",
+  "/Oragnizers T-T.png",
+  "/KEP_1777.JPG",
   "/KEP_1808.JPG",
   "/KEP_1817.JPG",
   "/KEP_1834.JPG",
