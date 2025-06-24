@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Mohammad Yasser",
+    "description": "“I had an amazing time at the CounterSpell event — a truly unique game jam where I totally dominated and took first place (no big deal 😉). The workshops were so good, it almost felt like cheating. I learned a ton and had a blast doing it!”",
+    "position": "CounterSpell Giza Participant",
+    "image": "/Mohammad Yasser.jpg"
+  },
+  {
+    "name": "Yassin",
+    "description": "“I discovered the Hack Club of STEM Egypt  in Grade 9 through their national bootcamp, where I improved my problem-solving skills in the CP council. Since becoming a member in 2025, I’ve built games, websites, and PCBs, learned so much, and found a community where I truly belong. Hack Club helped me grow both technically and personally.”",
+    "position": "HCSE Member",
+    "image": "/Yassin.jpg"
+  },
+
+  {
+    "name": "Amn Mohamed",
+    "description": "“It was my first time participating in a hackathon, and it was a wonderful experience. Even though my coding skills weren’t strong, I met amazing people who helped me out and made me feel welcome. I made new friendships and learned a lot from that day — it truly inspired me.”",
+    "position": "Scrapyard Giza Participant",
+    "image": "/Amn.jpg"
+  },
+  {
+    "name": "Nader",
+    "description": "“HCSE isn’t just a club — it’s my launchpad. From coding basics to cybersecurity and game development, I’ve grown in every area. With their support, I even earned my own Raspberry Pi from Hack Club. Truly the best club I’ve ever been part of.”",
+    "position": "HCSE Member",
+    "image": "/Nader.jpg"
+  },
+  {
+    "name": "Participant",
+    "description": "“The organizers were incredibly kind and supportive, guiding us throughout the entire event. I made new friends who share my interests and can support me in future projects. The mentors even shared their contact info and offered ongoing help. It really felt like the start of something bigger.”",
+    "position": "Scrapyard Giza",
+    "image": ""
+  }
+]

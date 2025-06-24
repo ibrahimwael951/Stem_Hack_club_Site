@@ -7,6 +7,9 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { IoMdDoneAll } from "react-icons/io";
 import AnimatedStatCard from "../ui/AnimatedStatCard";
 import Button from "../ui/Button";
+import CommentCard from "../ui/CommentCard";
+import Comments from "@/Data/DonationComments.json";
+import { FaRegHeart } from "react-icons/fa";
 const DonationContent = () => {
   const Statistics = [
     { icon: <PiStudentFill />, title: "Students Reached", value: 1500 },
@@ -38,7 +41,7 @@ const DonationContent = () => {
           className="mb-2"
         >
           {" "}
-          Hack Club Stem Egypt
+          Hack Club STEM Egypt
         </motion.h1>
 
         <motion.p
@@ -104,14 +107,16 @@ const DonationContent = () => {
             />
           </div>
         </div>
-        <motion.div 
+        <motion.div
           viewport={{
             once: true,
             amount: 0.5,
           }}
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }} className="lg:w-2/4">
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="lg:w-2/4"
+        >
           <Image
             className=" w-full  max-w-xl rounded-3xl"
             src="/images/Members-pictures/bolbol.png"
@@ -120,6 +125,28 @@ const DonationContent = () => {
             height={1000}
           />
         </motion.div>
+      </div>
+      <div className="text-center">
+        <motion.h1
+          viewport={{ once: true, amount: 0.5 }}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex items-center justify-center  gap-2 "
+        >
+          Voices from Our Community <FaRegHeart className="hidden md:inline" />
+        </motion.h1>
+      </div>
+      <div className="grid grid-cols-1  lg:grid-cols-2 gap-y-10 lg:gap-y-20">
+        {Comments.map((item, i) => (
+          <CommentCard
+            key={i}
+            name={item.name}
+            description={item.description}
+            image={item.image}
+            position={item.position}
+          />
+        ))}
       </div>
     </section>
   );
