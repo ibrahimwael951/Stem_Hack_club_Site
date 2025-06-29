@@ -11,10 +11,10 @@ export default function page() {
     <section className="px-5 lg:px-20 ">
       <InfiniteBackground />
       <BackGround />
+      <DonationContent />  
       <Impact />
       <Supporters />
       <CommunityVoices/>
-      <DonationContent />
     </section>  
   );
 }

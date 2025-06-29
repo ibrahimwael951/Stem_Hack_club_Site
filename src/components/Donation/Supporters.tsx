@@ -44,7 +44,7 @@ const Supporters = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Our Sponsors
+        Supporters & Partners  
       </motion.h1>
       <motion.p
         viewport={{
