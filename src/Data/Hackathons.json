@@ -1,0 +1,159 @@
+[
+ {
+  "name":"counterspell",
+    "Hero": {
+      "desc": "November 23, 2024",
+      "title": "Counterspell-Giza",
+      "src": "/Hackathons/CounterSpell/counterspell bg.png"
+    },
+    "Content":{
+        "Image":"/images/Home_page.jpg",
+        "title":"Counterspell Giza",
+        "Desc_1":"Counterspell Giza was a 12-hour game jam hosted at STEM High School for Boys – 6th of October, where 100+ high school students came together to build games from scratch. As part of Hack Club’s global ",
+        "Desc_2":", it ranked #1 out of 49+ cities, making it the top event worldwide.",
+        "Desc_3":"Students formed teams of 3–4 and spent the day learning, coding, and creating playable games — many for the first time. Whether beginners or experienced builders, everyone left with a project and new skills.",
+        "Desc_4":"Led by 11 student organizers, Counterspell Giza became the largest game jam ever held in Egypt, setting a new standard for youth-led tech events in the region. ", 
+        "Link":{
+            "title":"Counterspell series",
+            "href":"https://counterspell.hackclub.com/"
+        }
+    },
+    "impact": [ 
+      { "title": "Sign-ups", "value": 281 },
+      { "title": "Projects", "value": 30 },
+      { "title": "Game Dev Workshops", "value": 3 }
+    ],
+    "Participant":[
+        {"description":"Custom event T-shirt for every participant" , "title":"Custom T-shirt"  },
+        {"description":"Laptop stickers, pins, and other cool merch" , "title":"Stickers & Swag" },
+        {"description":"Breakfast, lunch, and dinner provided" , "title":"Meals & Snacks"  }
+    ],
+    "timeline": [
+      { "title": "8:00 AM", "p": "Opening Ceremony" },
+      { "title": "9:00 AM", "p": "Start Building Games" },
+      { "title": "10:00 AM", "p": "Workshops & Activities" },
+      { "title": "2:00 PM", "p": "Lunch Break" },
+      { "title": "4:30 PM", "p": "Lightning Talks" },
+      { "title": "6:30 PM", "p": "Game Demos" },
+      { "title": "8:00 PM", "p": "Closing Ceremony" }
+    ],
+    "Highlights": [
+      {
+        "caption": "Kicking off the day with energy and excitement — the opening ceremony sets the tone.",
+        "Image": "/Hackathons/CounterSpell/Opening Ceremony 1.png"
+      },
+      {
+        "caption": "Matching shirts, shared goals — the Counterspell Giza experience begins.",
+        "Image": "/Hackathons/CounterSpell/Construct 3 Workshop.jpg"
+      },
+      {
+        "caption": "Zaki and Zoro dropping the coolest pose of the day.",
+        "Image": "/Hackathons/CounterSpell/Modeling lol.png"
+      },
+      {
+        "caption": "A quick snippet from the Pygame workshop with Kareem in action.",
+        "Image": "/Hackathons/CounterSpell/Pygame Workshop - Instructor.jpg"
+      },
+      {
+        "caption": "Lillith pulled up and instantly stole the show.",
+        "Image": "/Hackathons/CounterSpell/Hooman.jpg"
+      },
+      {
+        "caption": "Working on their game — and their plates.",
+        "Image": "/Hackathons/CounterSpell/صورة 37.png"
+      },
+      {
+        "caption": "Laughter, code, and shawerma — the essentials of a great hackathon.",
+        "Image": "/Hackathons/CounterSpell/IMG-20241124-WA0107.jpg"
+      },
+      {
+        "caption": "Locked in — the focus that led them to 1st place.",
+        "Image": "/Hackathons/CounterSpell/IMG-20241124-WA0097.jpg"
+      },
+      {
+        "caption": "The force behind Counterspell Giza — thank you, team!",
+
+        "Image": "/Hackathons/CounterSpell/Organizers!.jpg"
+      }
+    ]
+  },
+  {
+    "name":"scrapyard",
+    "Hero": {
+      "desc": "November 23, 2024",
+      "title": "Counterspell-Giza",
+      "src": "/Hackathons/CounterSpell/counterspell bg.png"
+    },
+    "Content":{
+        "Image":"",
+        "title":"",
+        "Desc_1":"",
+        "Desc_2":"",
+        "Desc_3":"",
+        "Desc_4":"", 
+        "Link":{
+            "title":"",
+            "href":""
+        }
+    },
+    "impact": [
+      { "title": "Sign-ups", "value": 281 },
+      { "title": "Projects", "value": 30 },
+      { "title": "Game Dev Workshops", "value": 3 }
+    ],
+    "Participant":[
+        {"description":"Custom event T-shirt for every participant" , "title":"Custom T-shirt"  },
+        {"description":"Laptop stickers, pins, and other cool merch" , "title":"Stickers & Swag" },
+        {"description":"Breakfast, lunch, and dinner provided" , "title":"Meals & Snacks"  }
+    ],
+    "timeline": [
+      { "title": "8:00 AM", "p": "Opening Ceremony" },
+      { "title": "9:00 AM", "p": "Start Building Games" },
+      { "title": "10:00 AM", "p": "Workshops & Activities" },
+      { "title": "2:00 PM", "p": "Lunch Break" },
+      { "title": "4:30 PM", "p": "Lightning Talks" },
+      { "title": "6:30 PM", "p": "Game Demos" },
+      { "title": "8:00 PM", "p": "Closing Ceremony" }
+    ],
+    "Highlights": [
+      {
+        "caption": "Kicking off the day with energy and excitement — the opening ceremony sets the tone.",
+        "Image": "/Hackathons/CounterSpell/Opening Ceremony 1.png"
+      },
+      {
+        "caption": "Matching shirts, shared goals — the Counterspell Giza experience begins.",
+        "Image": "/Hackathons/CounterSpell/Construct 3 Workshop.jpg"
+      },
+      {
+        "caption": "Zaki and Zoro dropping the coolest pose of the day.",
+        "Image": "/Hackathons/CounterSpell/Modeling lol.png"
+      },
+      {
+        "caption": "A quick snippet from the Pygame workshop with Kareem in action.",
+        "Image": "/Hackathons/CounterSpell/Pygame Workshop - Instructor.jpg"
+      },
+      {
+        "caption": "Lillith pulled up and instantly stole the show.",
+        "Image": "/Hackathons/CounterSpell/Hooman.jpg"
+      },
+      {
+        "caption": "Working on their game — and their plates.",
+        "Image": "/Hackathons/CounterSpell/صورة 37.png"
+      },
+      {
+        "caption": "Laughter, code, and shawerma — the essentials of a great hackathon.",
+        "Image": "/Hackathons/CounterSpell/IMG-20241124-WA0107.jpg"
+      },
+      {
+        "caption": "Locked in — the focus that led them to 1st place.",
+        "Image": "/Hackathons/CounterSpell/IMG-20241124-WA0097.jpg"
+      },
+      {
+        "caption": "The force behind Counterspell Giza — thank you, team!",
+
+        "Image": "/Hackathons/CounterSpell/Organizers!.jpg"
+      }
+    ]
+  }
+]
+ 

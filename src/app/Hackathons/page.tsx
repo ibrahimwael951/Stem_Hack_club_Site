@@ -85,7 +85,7 @@ export default function page() {
           }}
           transition={{ duration: 0.3 }}
         >
-          our last Hackathons
+          Our last Hackathons
         </motion.h1>
         <div className="flex flex-col md:flex-row justify-center items-center gap-20">
           {hackathons.map((component, index) => (
@@ -102,11 +102,11 @@ export default function page() {
                 opacity: 1,
                 y: 0,
               }}
+              key={index}
               transition={{ duration: 0.3 }}
             >
               <Link
                 href={component.link}
-                key={index}
                 className=" p-10 h-72 w-80 bg-white shadow-[0_12px_12px_6px_rgba(23,23,23,0.2)] dark:bg-neutral-900  rounded-md flex flex-col gap-4  justify-evenly items-center  select-none"
               >
                 <Image

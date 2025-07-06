@@ -33,10 +33,10 @@ const AnimatedStatCard: React.FC<Props> = ({ title, value, icon }) => {
       ref={ref}
       viewport={{once:true , amount:0.5 }}
       initial={{ opacity: 0, y: 60 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
-      className="flex md:flex-col items-center  justify-center gap-16 md:gap-2 bg-neutral-200 dark:bg-neutral-900 p-4 rounded-xl shadow-2xl w-full  md:w-48  my-5 "
+      whileInView={{ opacity: 1, y: 0 ,transition:{duration:0.6} }}
+      transition={{ duration: 0.2 }}
+      whileHover={{ scale: 1.05}}
+      className="flex md:flex-col items-center  justify-center gap-16 md:gap-2 bg-neutral-200 dark:bg-neutral-950 p-4 rounded-xl shadow-2xl w-full  md:w-48  my-5 "
     >
       <div className=" text-5xl text-red-500">{icon}</div>
       <div>

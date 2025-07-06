@@ -16,7 +16,7 @@ const Footer = () => {
         </h1>
         {FLink.Nav.slice(0, 5).map((link, index) => (
           <Link
-            className=" pl-4 my-1  text-lg cursor-pointer transition text-neutral-700  dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+            className=" ml-4 my-1  text-lg cursor-pointer transition text-neutral-700  dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
             href={link.href}
             key={index}
           >
@@ -29,7 +29,7 @@ const Footer = () => {
         <h1 className="text-xl text-neutral-900 dark:text-white">Tracks</h1>
         {FLink.Tracks.map((link, index) => (
           <Link
-            className=" pl-4 my-1  text-lg cursor-pointer transition text-neutral-700  dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+            className=" ml-4 my-1  text-lg cursor-pointer transition text-neutral-700  dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
             href={link.href}
             key={index}
           >
@@ -44,7 +44,7 @@ const Footer = () => {
         </h1>
         {FLink.challenges.map((link, index) => (
           <Link
-            className=" pl-4 my-1  text-lg cursor-pointer transition text-neutral-700  dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
+            className=" ml-4 my-1  text-lg cursor-pointer transition text-neutral-700  dark:text-neutral-400  hover:translate-y-[-1px]  dark:hover:text-red-600 hover:text-red-500 duration-150"
             href={link.href}
             key={index}
           >
