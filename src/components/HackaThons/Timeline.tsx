@@ -19,7 +19,7 @@ const Timeline: React.FC<props> = ({ card }) => {
             viewport={{ once: true, amount: 0.5 }}
             initial={{ opacity: 0 ,y:20}}
             whileInView={{ opacity: 1 ,y:0}}
-            className="w-full sm:w-72 h-60 rounded-2xl bg-neutral-200 dark:bg-neutral-950 border border-red-600 p-5 flex flex-col justify-center items-center  "
+            className="w-full sm:w-72 h-60 rounded-2xl bg-neutral-200 dark:bg-neutral-950 border  p-5 flex flex-col justify-center items-center  "
           >
             <h1 className="text-2xl text-center  ">{Item.p}</h1>
             <p>{Item.title}</p>

@@ -11,12 +11,12 @@ export default function page() {
     {
       image: "/images/counterspell-cairo.png",
       title: "Counterspell-Giza",
-      link: "https://counterspell.hackclub.com/giza",
+      link: "/Hackathons/counterspell",
     },
     {
       image: "/images/scrapyard.png",
       title: "Scrapyard",
-      link: "https://scrapyard.hackclub.com/",
+      link: "/Hackathons/scrapyard",
     },
     // {image:"/images/moonlit hacks.png", title:"Moonlit Hack "},
   ];

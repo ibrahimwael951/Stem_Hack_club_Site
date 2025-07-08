@@ -10,6 +10,8 @@ import { useParams } from "next/navigation";
 import Hackathons from "@/Data/HackaThons";
 import notfound from "@/app/not-found";
 import Prizes from "@/components/HackaThons/Prizes";
+import Sponsors from "@/components/HackaThons/Sponsors";
+import Projects from "@/components/HackaThons/Projects";
 export default function page() {
   const params = useParams();
   const book = Hackathons.find((b) => b.name.toString() === params.name);
@@ -38,6 +40,8 @@ export default function page() {
         <Timeline card={book.timeline}/>
         <Highlights  Highlights={book.Highlights}/> 
         <Prizes Prizes={book.Prizes} />
+        <Projects podium={book.podium} projectLinks={book.projectsLink}/>
+        <Sponsors sponsors={book.Sponsors}/>
       </div>
     </section>
   );

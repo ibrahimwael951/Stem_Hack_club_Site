@@ -6,8 +6,8 @@ import { PiStudentFill } from "react-icons/pi";
 import { GrWorkshop } from "react-icons/gr";
 
 import { FaShirt } from "react-icons/fa6";
-import { TbSticker} from "react-icons/tb";
-import {GiHotMeal } from "react-icons/gi";
+import { TbSticker } from "react-icons/tb";
+import { GiHotMeal } from "react-icons/gi";
 
 export interface Hero {
   desc: string;
@@ -51,26 +51,47 @@ export interface Highlight {
   caption: string;
   Image: string;
 }
+
 export interface Prizes {
-  position:string;
-  gifts:string;
-  image:string;
+  position: string;
+  gifts: string;
+  image: string;
+}
+
+export interface Podium {
+  position: number;
+  title: string;
+  description: string;
+  team: string;
+  image: string;
+}
+
+export interface Sponsors {
+  title: string;
+  image: string;
+  link: string;
 }
 
 export interface Hackathon {
   name: string;
+  projectsLink: string;
   Hero: Hero;
   Content: Content;
   impact: Impact[];
   Participant: Participant[];
   timeline: Timeline[];
   Highlights: Highlight[];
-  Prizes:Prizes[];
+  Prizes: Prizes[];
+
+  podium: Podium[];
+  Sponsors: Sponsors[];
 }
 
 export const HACKATHONS: Hackathon[] = [
   {
     name: "counterspell",
+    projectsLink: "",
+
     Hero: {
       desc: "November 23, 2024",
       title: "Counterspell-Giza",
@@ -164,34 +185,79 @@ export const HACKATHONS: Hackathon[] = [
         caption: "The force behind Counterspell Giza — thank you, team!",
         Image: "/Hackathons/CounterSpell/Organizers!.jpg",
       },
-    ], Prizes:[
+    ],
+    Prizes: [
       {
-        position:"",
-        gifts:"",
-        image:"",
+        position: "1ST",
+        gifts: "Hack Club Jacket + 7500 EGP in Gifts Cards",
+        image: "/Hackathons/CounterSpell/1st place counterspell.png",
       },
-    ]   
+      {
+        position: "2ND",
+        gifts: "Respberry Pi Zero 2 W + 5000 EGY in Gifts Cards",
+        image: "/Hackathons/CounterSpell/2nd palce counterspell.png",
+      },
+      {
+        position: "3RD",
+        gifts: "2500 EGY in Gifts Cards",
+        image: "/Hackathons/CounterSpell/3rd place prize counterspell.png",
+      },
+    ],  
+
+    podium: [
+      {
+        title: "",
+        description: "",
+        team: "",
+        position: 0,
+        image: "",
+      }
+    ],
+
+    Sponsors: [
+      {
+        title: "Hack Club",
+        image: "https://assets.hackclub.com/icon-square.svg",
+        link: "https://hackclub.com/",
+      },
+      {
+        title: "STEM High School for Boys-6th of October",
+        image: "/Supporters/STEM.png",
+        link: "https://www.stemegypt.net/",
+      },
+      {
+        title: "Chucklefish ",
+        image: "/Supporters/Chucklefish.webp",
+        link: "https://chucklefish.org/",
+      },
+      {
+        title: "Swish Swoosh",
+        image: "/Supporters/image.jpg",
+        link: "https://www.swish-swoosh.com/",
+      },
+    ],
   },
   {
     name: "scrapyard",
+    projectsLink: "https://podium.hackclub.com/events/scrapyard-giza/leaderboard",
     Hero: {
       desc: "March 15, 2025",
       title: "Scrapyard Giza",
       src: "/Hackathons/scrapyard/sora.jpg",
-    },    
+    },
     Content: {
       Image: "/Hackathons/scrapyard/sora.jpg",
       title: "Scrapyard Giza",
       Desc_1:
-        "Scrapyard Giza was a 12-hour programming hackathon for high school students, held during Ramadan at Masters Language School. Part of Hack Club’s global",
+        "Scrapyard Giza was a 12-hour programming hackathon for high school students, held during Ramadan at Masters Language School. Part of Hack Club's global",
       Desc_2: " it ranked #1 among 60+ cities worldwide.",
       Desc_3:
-        "With a scrappy theme of creating “stupid inventions using code,” students embraced the chaos, creativity, and fun of making quirky, unconventional tech. 160 participants formed teams and brought their weirdest ideas to life — from hilarious web tools to offbeat games.",
+        "With a scrappy theme of creating stupid inventions using code, students embraced the chaos, creativity, and fun of making quirky, unconventional tech. 160 participants formed teams and brought their weirdest ideas to life — from hilarious web tools to offbeat games.",
       Desc_4:
         "Throughout the day, students took workshops in web development and game development, learned about control systems and Arduino, and applied what they picked up straight into their projects. The vibes were unmatched — fueled by laughter, collaboration, and a shared Ramadan Iftar at sunset. Following the momentum of Counterspell Giza, this event scaled up the energy and spirit of youth-led hackathons in Egypt.",
       Link: {
         title: "Scrapyard series",
-        href: "https://scrapyard.hackclub.com", 
+        href: "https://scrapyard.hackclub.com",
       },
     },
     impact: [
@@ -212,7 +278,7 @@ export const HACKATHONS: Hackathon[] = [
       },
       {
         description: "Breakfast, lunch, and dinner provided",
-        title: "Ramdan Iftar",
+        title: "Ramadan Iftar",
         icon: GiHotMeal,
       },
     ],
@@ -222,98 +288,111 @@ export const HACKATHONS: Hackathon[] = [
       { title: "12:30 PM", p: "Project Building Starts" },
       { title: "6:00 PM", p: "Iftar (Ramadan Breakfast)" },
       { title: "8:00 PM", p: "Demos & Project Showcase" },
-      { title: "9:00 PM ", p: "Closing Ceremony" },
+      { title: "9:00 PM", p: "Closing Ceremony" },
     ],
     Highlights: [
       {
-        caption: "", 
+        caption: "Opening ceremony energy",
         Image: "/Hackathons/scrapyard/KEP_1777.JPG",
       },
-      { 
-        caption: "",
+      {
+        caption: "Students collaborating",
         Image: "/Hackathons/scrapyard/KEP_1844.JPG",
       },
       {
-        caption: "",
+        caption: "Workshop in action",
         Image: "/Hackathons/scrapyard/KEP_1852.JPG",
       },
       {
-        caption: "",
+        caption: "Focused coding sessions",
         Image: "/Hackathons/scrapyard/KEP_1865.JPG",
       },
       {
-        caption: "",
+        caption: "Team collaboration",
         Image: "/Hackathons/scrapyard/KEP_1878.JPG",
       },
       {
-        caption: "",
+        caption: "Learning new skills",
         Image: "/Hackathons/scrapyard/KEP_1884.JPG",
       },
       {
-        caption: "",
+        caption: "Project development",
         Image: "/Hackathons/scrapyard/KEP_1895.JPG",
       },
       {
-        caption: "",
+        caption: "Presentation time",
         Image: "/Hackathons/scrapyard/KEP_1909.JPG",
       },
       {
-        caption: "",
+        caption: "Celebrating achievements",
         Image: "/Hackathons/scrapyard/KEP_1914.JPG",
       },
       {
-        caption: "",
+        caption: "Community spirit",
         Image: "/Hackathons/scrapyard/KEP_1929.JPG",
       },
       {
-        caption: "",
+        caption: "Amazing organizers",
         Image: "/Hackathons/scrapyard/Orgs.jpeg",
-      }
+      },
     ],
-    Prizes:[
+    Prizes: [
       {
-        position:"1ST",
-        gifts:"30$ gift card + raspberry pi",
-        image:"/Hackathons/scrapyard/raspberry pi.png",
+        position: "1ST",
+        gifts: "30$ gift card + raspberry pi",
+        image: "/Hackathons/scrapyard/raspberry pi.png",
       },
       {
-        position:"2ND",
-        gifts:"Custom PCB Badge + 3 Arduino UNO",
-        image:"/Hackathons/scrapyard/3 Arduino UNO.png",
+        position: "2ND",
+        gifts: "Custom PCB Badge + 3 Arduino UNO",
+        image: "/Hackathons/scrapyard/3 Arduino UNO.png",
       },
       {
-        position:"3RD",
-        gifts:"3 Arduino Nano",
-        image:"/Hackathons/scrapyard/ArduinoNano.png",
+        position: "3RD",
+        gifts: "3 Arduino Nano",
+        image: "/Hackathons/scrapyard/ArduinoNano.png",
       },
-    ]
+    ],
+
+    podium: [
+      {
+        title: "Error_404",
+        description:
+          "An interesting happens when you press the 0 in the 404 and a more interesting thing happens once the interesting thing ends.",
+        team: "Mohab Mohamed Hamdi",
+        position: 1,
+        image: "/Hackathons/scrapyard/Error_404.png",
+      },
+      {
+        title: "stupid fohlok",
+        description: "a stupid RPG about fohloky",
+        team: "Eslam Essam",
+        position: 2,
+        image: "/Hackathons/scrapyard/stupid fohlok.png",
+      },
+      {
+        title: "MEMEZY",
+        description:
+          "this is an entertainment project for youth to have fun. :)",
+        team: "Abdelrahman Ahmed",
+        position: 3,
+        image: "/Hackathons/scrapyard/MEMEZY.jpg",
+      },
+    ],
+
+    Sponsors: [
+      {
+        title: "Hack Club",
+        image: "https://assets.hackclub.com/icon-square.svg",
+        link: "https://hackclub.com/",
+      },
+      {
+        title: "Masters Language School",
+        image: "/Supporters/Masters Language School.png",
+        link: "https://mastersls.com/",
+      },
+    ],
   },
 ];
-
-export const getHackathonByName = (name: string): Hackathon | undefined => {
-  return HACKATHONS.find((hackathon) => hackathon.name === name);
-};
-
-export const getAllHackathonNames = (): string[] => {
-  return HACKATHONS.map((hackathon) => hackathon.name);
-};
-
-export const getHackathonHighlights = (name: string): Highlight[] => {
-  const hackathon = getHackathonByName(name);
-  return hackathon?.Highlights || [];
-};
-
-export const getHackathonTimeline = (name: string): Timeline[] => {
-  const hackathon = getHackathonByName(name);
-  return hackathon?.timeline || [];
-};
-
-export const getHackathonImpact = (name: string): Impact[] => {
-  const hackathon = getHackathonByName(name);
-  return hackathon?.impact || [];
-};
-
-export const COUNTERSPELL = HACKATHONS[0];
-export const SCRAPYARD = HACKATHONS[1];
 
 export default HACKATHONS;
