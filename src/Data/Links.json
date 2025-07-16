@@ -9,7 +9,7 @@
       "href": "/Competitive-Programming",
       "title": "Competitive Programming"
     },
-    { "href": "/https://eycc.stemeghackclub.org/", "title": "EYCC" }
+    { "href": "https://eycc.stemeghackclub.org/", "title": "EYCC" }
   ],
   "challenges": [
     {
@@ -18,7 +18,7 @@
       "description": "Hackathons are a great way to learn new skills, meet new people, and have fun whil"
     },
     {
-      "href": "/https://eycc.stemeghackclub.org/",
+      "href": "https://eycc.stemeghackclub.org/",
       "title": "EYCC",
       "description": " Egyptian Youth Cybersecurity Challenge"
     }
