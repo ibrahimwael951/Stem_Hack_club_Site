@@ -95,7 +95,7 @@ export const HACKATHONS: Hackathon[] = [
     Hero: {
       desc: "November 23, 2024",
       title: "Counterspell-Giza",
-      src: "/Hackathons/CounterSpell/counterspell bg.png",
+      src: "/images/Home_page.jpg",
     },
     Content: {
       Image: "/images/Home_page.jpg",

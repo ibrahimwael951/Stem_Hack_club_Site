@@ -18,7 +18,7 @@ const Projects: React.FC<props> = ({ podium, projectLinks }) => {
           few highlights from Scrapyard Giza :
         </p>
       </div>
-      <div className="flex gap-10 justify-center items-center">
+      <div className="flex flex-wrap gap-10 justify-center items-center">
         {podium.map((item, i) => (
           <motion.div
             key={i}
