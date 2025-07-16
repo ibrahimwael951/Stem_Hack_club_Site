@@ -92,7 +92,7 @@ const Navbar = () => {
 
         <NavigationMenu>
           <NavigationMenuList>
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuTrigger
                 className={`bg-transparent   duration-0   ${
                   hasScrolled
@@ -135,7 +135,7 @@ const Navbar = () => {
                   ))}
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
             <NavigationMenuItem>
               <NavigationMenuTrigger
@@ -245,7 +245,7 @@ const Navbar = () => {
         <div className="flex flex-col gap-5 justify-center items-center">
           {[
             { title: "Stem Hack Club", data: NLink.Nav },
-            { title: "Tracks", data: NLink.Tracks },
+            // { title: "Tracks", data: NLink.Tracks },
             { title: "Event & Competitions", data: NLink.challenges },
           ].map((section, i) => (
             <div className="flex flex-col justify-center items-center" key={i}>

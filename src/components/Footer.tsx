@@ -25,7 +25,7 @@ const Footer = () => {
         ))}
       </div>
 
-      <div className="flex flex-col justify-evenly items-center lg:items-start">
+      {/* <div className="flex flex-col justify-evenly items-center lg:items-start">
         <h1 className="text-xl text-neutral-900 dark:text-white">Tracks</h1>
         {FLink.Tracks.map((link, index) => (
           <Link
@@ -36,7 +36,7 @@ const Footer = () => {
             {link.title}
           </Link>
         ))}
-      </div>
+      </div> */}
 
       <div className="flex flex-col justify-evenly items-center lg:items-start">
         <h1 className="text-xl text-neutral-900 dark:text-white">
