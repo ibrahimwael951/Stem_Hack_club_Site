@@ -14,20 +14,20 @@ export const metadata: Metadata = {
     "Technology",
     "egypt",
   ],
-  metadataBase: new URL("https://stemegypt.hackclub.com"),
+  metadataBase: new URL("https://stemeghackclub.org/"),
   alternates: {
-    canonical: "https://stemegypt.hackclub.com",
+    canonical: "https://stemeghackclub.org/",
   },
   openGraph: {
     type: "website",
-    url: "https://stemegypt.hackclub.com",
+    url: "https://stemeghackclub.org/",
     title: "Stem Hack Club - Learn & Code",
     description:
       "Join the Stem Hack Club — a dynamic community of students passionate about STEM, coding, and building cool tech projects together.",
     siteName: "Stem Hack Club",
     images: [
       {
-        url: "https://stemegypt.hackclub.com/og-image.jpg",
+        url: "https://stemeghackclub.org//og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Stem Hack Club Banner",
